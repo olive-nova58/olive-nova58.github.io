@@ -1,0 +1,1993 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>童颜yandex|官方品牌视频门户 - 高清原创影像社区</title>
+<meta name="description" content="童颜yandex官方网站，深耕品质影像与真实生活记录的视频品牌平台，汇聚原创创作者、精品内容与温暖社区，持续运营的高清正版影像内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f7b1c8'/%3E%3Ccircle cx='32' cy='26' r='11' fill='%23ffffff'/%3E%3Cpath d='M14 54c2-12 10-18 18-18s16 6 18 18' fill='%23ffffff'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ty-pink:#ef7fa6;
+  --ty-pink-deep:#d9557f;
+  --ty-pink-soft:#fce7ef;
+  --ty-lilac:#8f7bb5;
+  --ty-lilac-soft:#efe9f8;
+  --ty-ink:#2c2430;
+  --ty-ink-soft:#5d5264;
+  --ty-line:#eadfe6;
+  --ty-bg:#fdf9fb;
+  --ty-card:#ffffff;
+  --ty-grey:#f4f0f3;
+  --ty-shadow:0 10px 30px rgba(120,80,100,.09);
+  --ty-radius:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:128px}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  background:var(--ty-bg);
+  color:var(--ty-ink);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+ul{list-style:none}
+.ty-container{width:min(1180px,92%);margin:0 auto}
+.ty-section{padding:76px 0}
+.ty-section--alt{background:linear-gradient(180deg,#fbf3f7 0%,#fdf9fb 100%)}
+.ty-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:13px;letter-spacing:.18em;color:var(--ty-pink-deep);
+  font-weight:600;text-transform:uppercase;margin-bottom:14px;
+}
+.ty-eyebrow::before{content:"";width:22px;height:2px;background:var(--ty-pink);border-radius:2px}
+.ty-h2{
+  font-size:clamp(24px,3.1vw,34px);
+  line-height:1.35;font-weight:800;letter-spacing:.01em;margin-bottom:14px;
+}
+.ty-h2 em{font-style:normal;color:var(--ty-pink-deep)}
+.ty-sub{color:var(--ty-ink-soft);max-width:720px;font-size:15.5px}
+.ty-section-head{margin-bottom:40px}
+.ty-btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:12px 26px;border-radius:999px;font-size:15px;font-weight:600;
+  transition:.25s ease;white-space:nowrap;
+}
+.ty-btn--primary{background:linear-gradient(135deg,var(--ty-pink) 0%,var(--ty-pink-deep) 100%);color:#fff;box-shadow:0 8px 20px rgba(217,85,127,.28)}
+.ty-btn--primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(217,85,127,.36)}
+.ty-btn--ghost{border:1.5px solid var(--ty-line);background:#fff;color:var(--ty-ink)}
+.ty-btn--ghost:hover{border-color:var(--ty-pink);color:var(--ty-pink-deep)}
+
+/* ---------- 公告条 + 页头 吸顶 ---------- */
+.ty-top-stack{position:sticky;top:0;z-index:200}
+.ty-notice{
+  background:linear-gradient(90deg,#3a2c3f,#5c3f52 55%,#7c4a63);
+  color:#fbe6ee;font-size:13.5px;
+}
+.ty-notice-inner{
+  width:min(1180px,94%);margin:0 auto;display:flex;align-items:center;gap:12px;
+  padding:8px 0;overflow:hidden;
+}
+.ty-notice-tag{
+  flex:0 0 auto;background:var(--ty-pink);color:#3a2030;font-weight:700;
+  font-size:12px;padding:2px 10px;border-radius:999px;letter-spacing:.06em;
+}
+.ty-notice-track{display:flex;gap:44px;white-space:nowrap;animation:ty-marquee 26s linear infinite}
+.ty-notice-track span{opacity:.92}
+.ty-notice-track span b{color:#ffd6e4;font-weight:600}
+@keyframes ty-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ty-header{
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--ty-line);
+}
+.ty-header-inner{
+  width:min(1180px,94%);margin:0 auto;
+  display:flex;align-items:center;gap:26px;height:66px;
+}
+.ty-logo{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.ty-logo-mark{
+  width:38px;height:38px;border-radius:12px;
+  background:linear-gradient(135deg,var(--ty-pink),var(--ty-lilac));
+  display:grid;place-items:center;color:#fff;font-weight:800;font-size:17px;
+  box-shadow:0 6px 14px rgba(180,110,150,.3);
+}
+.ty-logo-text{font-weight:800;font-size:18.5px;letter-spacing:.02em}
+.ty-logo-text small{display:block;font-size:10.5px;font-weight:500;letter-spacing:.16em;color:var(--ty-ink-soft);line-height:1.2}
+.ty-nav{display:flex;gap:4px;margin-left:8px}
+.ty-nav a{
+  padding:8px 13px;border-radius:10px;font-size:14.5px;color:var(--ty-ink-soft);
+  font-weight:500;transition:.2s;
+}
+.ty-nav a:hover,.ty-nav a.is-active{color:var(--ty-pink-deep);background:var(--ty-pink-soft)}
+.ty-header-tools{margin-left:auto;display:flex;align-items:center;gap:12px}
+.ty-search{position:relative;display:flex;align-items:center}
+.ty-search input{
+  width:190px;padding:9px 38px 9px 15px;border-radius:999px;
+  border:1.5px solid var(--ty-line);background:var(--ty-grey);
+  font-size:14px;outline:none;transition:.25s;color:var(--ty-ink);
+}
+.ty-search input:focus{border-color:var(--ty-pink);background:#fff;width:230px;box-shadow:0 0 0 4px var(--ty-pink-soft)}
+.ty-search button{
+  position:absolute;right:6px;width:30px;height:30px;border-radius:50%;
+  display:grid;place-items:center;color:var(--ty-pink-deep);
+}
+.ty-search button:hover{background:var(--ty-pink-soft)}
+.ty-search-hint{
+  position:absolute;top:46px;right:0;width:250px;background:#fff;
+  border-radius:14px;box-shadow:var(--ty-shadow);border:1px solid var(--ty-line);
+  padding:8px;font-size:13.5px;display:none;z-index:50;
+}
+.ty-search-hint.is-open{display:block}
+.ty-search-hint p{color:var(--ty-ink-soft);padding:6px 10px 8px;font-size:12.5px}
+.ty-search-hint a{display:block;padding:7px 10px;border-radius:9px;color:var(--ty-ink)}
+.ty-search-hint a:hover{background:var(--ty-pink-soft);color:var(--ty-pink-deep)}
+.ty-search-hint .ty-none{color:var(--ty-ink-soft);padding:9px 10px;font-size:13px}
+.ty-burger{display:none;width:42px;height:42px;border-radius:12px;background:var(--ty-grey);place-items:center}
+.ty-burger span{display:block;width:18px;height:2px;background:var(--ty-ink);border-radius:2px;position:relative}
+.ty-burger span::before,.ty-burger span::after{content:"";position:absolute;left:0;width:18px;height:2px;background:var(--ty-ink);border-radius:2px}
+.ty-burger span::before{top:-6px}.ty-burger span::after{top:6px}
+.ty-mobile-nav{display:none;background:#fff;border-bottom:1px solid var(--ty-line)}
+.ty-mobile-nav.is-open{display:block}
+.ty-mobile-nav a{display:block;padding:12px 6%;border-top:1px solid var(--ty-grey);font-size:15px;color:var(--ty-ink-soft)}
+.ty-mobile-nav a:hover{color:var(--ty-pink-deep)}
+
+/* ---------- 首屏 ---------- */
+.ty-hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 420px at 88% -10%,#f9d7e5 0%,rgba(249,215,229,0) 70%),
+    radial-gradient(700px 380px at -8% 110%,#e3dcf5 0%,rgba(227,220,245,0) 70%),
+    linear-gradient(180deg,#fdf6fa,#fdf9fb);
+}
+.ty-hero-inner{
+  width:min(1180px,92%);margin:0 auto;
+  display:grid;grid-template-columns:1.02fr .98fr;gap:52px;align-items:center;
+  padding:64px 0 72px;
+}
+.ty-hero-badge{
+  display:inline-flex;align-items:center;gap:8px;background:#fff;
+  border:1px solid var(--ty-line);border-radius:999px;padding:6px 16px;
+  font-size:13px;font-weight:600;color:var(--ty-pink-deep);
+  box-shadow:0 6px 16px rgba(190,140,170,.13);margin-bottom:20px;
+}
+.ty-hero-badge i{width:7px;height:7px;border-radius:50%;background:var(--ty-pink);display:inline-block}
+.ty-h1{
+  font-size:clamp(34px,4.6vw,56px);font-weight:900;letter-spacing:.01em;
+  line-height:1.16;margin-bottom:18px;
+  background:linear-gradient(120deg,#2c2430 20%,#8a3d60 60%,#6a4a86 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.ty-hero-lead{color:var(--ty-ink-soft);font-size:16px;max-width:560px;margin-bottom:26px}
+.ty-hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:36px}
+.ty-hero-stats{display:flex;gap:34px;flex-wrap:wrap}
+.ty-stat b{display:block;font-size:26px;font-weight:900;color:var(--ty-pink-deep);line-height:1.2}
+.ty-stat span{font-size:13px;color:var(--ty-ink-soft)}
+.ty-hero-visual{position:relative}
+.ty-hero-frame{
+  border-radius:26px;overflow:hidden;box-shadow:0 26px 60px rgba(140,90,120,.22);
+  border:6px solid #fff;transform:rotate(-1.2deg);transition:transform .5s ease;
+}
+.ty-hero-frame:hover{transform:rotate(0) translateY(-4px)}
+.ty-hero-frame svg{width:100%;height:auto;display:block}
+.ty-hero-chip{
+  position:absolute;background:#fff;border-radius:14px;box-shadow:var(--ty-shadow);
+  padding:10px 16px;font-size:13px;font-weight:600;display:flex;align-items:center;gap:8px;
+}
+.ty-hero-chip--a{top:-14px;right:-6px;color:var(--ty-pink-deep)}
+.ty-hero-chip--b{bottom:18px;left:-16px;color:var(--ty-lilac)}
+.ty-hero-chip i{width:8px;height:8px;border-radius:50%;background:currentColor;display:inline-block}
+
+/* ---------- 深度解析 ---------- */
+.ty-about-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:44px;align-items:start}
+.ty-about-copy p{color:var(--ty-ink-soft);margin-bottom:16px;font-size:15.5px}
+.ty-about-copy p strong{color:var(--ty-ink);font-weight:700}
+.ty-about-side{
+  background:#fff;border:1px solid var(--ty-line);border-radius:22px;
+  padding:26px 24px;box-shadow:var(--ty-shadow);position:sticky;top:150px;
+}
+.ty-about-side h3{font-size:17px;margin-bottom:16px;font-weight:800}
+.ty-about-side li{
+  display:flex;gap:10px;padding:11px 0;border-top:1px dashed var(--ty-line);
+  font-size:14px;color:var(--ty-ink-soft);line-height:1.6;
+}
+.ty-about-side li:first-of-type{border-top:none}
+.ty-about-side li b{color:var(--ty-pink-deep);flex:0 0 auto}
+.ty-pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.ty-pill{
+  font-size:12.5px;padding:5px 13px;border-radius:999px;
+  background:var(--ty-lilac-soft);color:var(--ty-lilac);font-weight:600;
+}
+.ty-pill--pink{background:var(--ty-pink-soft);color:var(--ty-pink-deep)}
+
+/* ---------- 焦点视频 ---------- */
+.ty-focus-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px}
+.ty-vcard{
+  background:var(--ty-card);border-radius:var(--ty-radius);overflow:hidden;
+  border:1px solid var(--ty-line);box-shadow:0 4px 16px rgba(120,80,100,.05);
+  transition:.28s ease;display:flex;flex-direction:column;position:relative;
+}
+.ty-vcard:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(120,80,100,.14);border-color:#f2cadb}
+.ty-vcard-media{position:relative;aspect-ratio:16/9;overflow:hidden;background:#f3e9ef}
+.ty-vcard-media svg{width:100%;height:100%;display:block;transition:transform .5s ease}
+.ty-vcard:hover .ty-vcard-media svg{transform:scale(1.04)}
+.ty-vcard-play{
+  position:absolute;inset:0;margin:auto;width:52px;height:52px;border-radius:50%;
+  background:rgba(255,255,255,.86);display:grid;place-items:center;
+  box-shadow:0 6px 18px rgba(0,0,0,.18);transition:.25s;
+}
+.ty-vcard:hover .ty-vcard-play{background:#fff;transform:scale(1.08)}
+.ty-vcard-play::after{
+  content:"";width:0;height:0;margin-left:3px;
+  border-left:14px solid var(--ty-pink-deep);
+  border-top:9px solid transparent;border-bottom:9px solid transparent;
+}
+.ty-vcard-tagline{
+  position:absolute;left:12px;top:12px;background:rgba(44,36,48,.62);
+  color:#fff;font-size:12px;padding:4px 11px;border-radius:999px;backdrop-filter:blur(4px);
+}
+.ty-vcard-duration{
+  position:absolute;right:12px;bottom:12px;background:rgba(44,36,48,.7);
+  color:#fff;font-size:12px;padding:2px 9px;border-radius:6px;
+}
+.ty-vcard-body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.ty-vcard-body h3{font-size:16.5px;font-weight:700;line-height:1.5;margin-bottom:8px}
+.ty-vcard--lg .ty-vcard-body h3{font-size:22px;line-height:1.4}
+.ty-vcard-desc{color:var(--ty-ink-soft);font-size:13.5px;line-height:1.7;margin-bottom:14px}
+.ty-vcard--lg .ty-vcard-desc{font-size:14.5px}
+.ty-vcard-meta{
+  display:flex;flex-wrap:wrap;align-items:center;gap:10px;
+  font-size:12.5px;color:#8b7f90;margin-top:auto;
+}
+.ty-avatar{
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+  color:#fff;font-size:12px;font-weight:700;flex:0 0 auto;
+}
+.ty-vcard-actions{display:flex;gap:8px;margin-left:auto}
+.ty-act{
+  display:inline-flex;align-items:center;gap:5px;font-size:12.5px;color:#8b7f90;
+  padding:4px 9px;border-radius:8px;transition:.2s;font-weight:500;
+}
+.ty-act:hover{background:var(--ty-grey);color:var(--ty-pink-deep)}
+.ty-act.is-on{color:var(--ty-pink-deep)}
+.ty-act.is-on svg{fill:var(--ty-pink)}
+.ty-act svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.8}
+.ty-focus-side{display:flex;flex-direction:column;gap:18px}
+.ty-vcard--sm{flex-direction:row}
+.ty-vcard--sm .ty-vcard-media{width:42%;aspect-ratio:16/10;flex:0 0 auto}
+.ty-vcard--sm .ty-vcard-body{padding:14px 16px}
+.ty-vcard--sm .ty-vcard-body h3{font-size:14.5px;margin-bottom:6px}
+.ty-vcard--sm .ty-vcard-desc{font-size:12.5px;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.ty-vcard--sm .ty-vcard-play{width:36px;height:36px}
+.ty-vcard--sm .ty-vcard-play::after{border-left-width:10px;border-top-width:7px;border-bottom-width:7px}
+
+/* ---------- 视频流 ---------- */
+.ty-filter-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.ty-filter{
+  padding:7px 16px;border-radius:999px;font-size:13.5px;font-weight:600;
+  background:#fff;border:1px solid var(--ty-line);color:var(--ty-ink-soft);transition:.2s;
+}
+.ty-filter:hover{border-color:var(--ty-pink);color:var(--ty-pink-deep)}
+.ty-filter.is-active{background:var(--ty-pink-deep);border-color:var(--ty-pink-deep);color:#fff}
+.ty-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+
+/* ---------- 专题 ---------- */
+.ty-topic-list{display:grid;gap:18px}
+.ty-topic{
+  display:grid;grid-template-columns:180px 1fr auto;gap:22px;align-items:center;
+  background:#fff;border:1px solid var(--ty-line);border-radius:20px;
+  padding:18px;transition:.28s;
+}
+.ty-topic:hover{border-color:#f0c2d4;box-shadow:var(--ty-shadow);transform:translateX(4px)}
+.ty-topic-media{border-radius:14px;overflow:hidden;aspect-ratio:16/10}
+.ty-topic-media svg{width:100%;height:100%;display:block}
+.ty-topic h3{font-size:17.5px;margin-bottom:7px;font-weight:700}
+.ty-topic p{font-size:13.5px;color:var(--ty-ink-soft);line-height:1.7}
+.ty-topic-state{display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex:0 0 auto}
+.ty-badge{
+  font-size:12px;padding:3px 11px;border-radius:999px;font-weight:600;
+}
+.ty-badge--live{background:#e9f7ee;color:#2f8a56}
+.ty-badge--soon{background:var(--ty-lilac-soft);color:var(--ty-lilac)}
+.ty-badge--hot{background:var(--ty-pink-soft);color:var(--ty-pink-deep)}
+.ty-topic-count{font-size:12.5px;color:var(--ty-ink-soft)}
+
+/* ---------- 创作者矩阵 ---------- */
+.ty-creator-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.ty-creator{
+  background:#fff;border:1px solid var(--ty-line);border-radius:20px;
+  padding:24px 22px;text-align:center;transition:.28s;position:relative;
+}
+.ty-creator:hover{transform:translateY(-5px);box-shadow:var(--ty-shadow);border-color:#f0c2d4}
+.ty-creator-avatar{
+  width:66px;height:66px;border-radius:50%;margin:0 auto 14px;
+  display:grid;place-items:center;font-size:24px;font-weight:800;color:#fff;
+  box-shadow:0 8px 18px rgba(150,100,130,.22);
+}
+.ty-creator h3{font-size:16px;font-weight:800;margin-bottom:4px}
+.ty-creator .ty-domain{font-size:12.5px;color:var(--ty-pink-deep);font-weight:600;margin-bottom:10px}
+.ty-creator p{font-size:13px;color:var(--ty-ink-soft);line-height:1.7;min-height:64px}
+.ty-creator-nums{display:flex;justify-content:center;gap:20px;margin:14px 0 16px;padding-top:14px;border-top:1px dashed var(--ty-line)}
+.ty-creator-nums b{display:block;font-size:15px;font-weight:800;color:var(--ty-ink)}
+.ty-creator-nums span{font-size:11.5px;color:var(--ty-ink-soft)}
+.ty-creator .ty-btn{width:100%;padding:9px 0;font-size:13.5px}
+
+/* ---------- 评价 ---------- */
+.ty-quote-grid{columns:2;column-gap:22px}
+.ty-quote{
+  break-inside:avoid;background:#fff;border:1px solid var(--ty-line);
+  border-radius:18px;padding:22px;margin-bottom:22px;position:relative;
+  transition:.25s;
+}
+.ty-quote:hover{box-shadow:var(--ty-shadow)}
+.ty-quote::before{
+  content:"“";position:absolute;top:6px;right:18px;font-size:52px;
+  color:var(--ty-pink-soft);font-family:Georgia,serif;line-height:1;
+}
+.ty-quote p{font-size:14.5px;color:var(--ty-ink-soft);line-height:1.8;margin-bottom:14px}
+.ty-quote-who{display:flex;align-items:center;gap:10px;font-size:13px}
+.ty-quote-who b{font-weight:700;font-size:13.5px}
+.ty-quote-who span{color:#8b7f90}
+
+/* ---------- 影像墙 ---------- */
+.ty-wall{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:150px;gap:14px}
+.ty-wall-item{position:relative;border-radius:16px;overflow:hidden;background:#f3e9ef}
+.ty-wall-item svg{width:100%;height:100%;display:block;transition:transform .5s}
+.ty-wall-item:hover svg{transform:scale(1.06)}
+.ty-wall-item span{
+  position:absolute;left:12px;bottom:10px;color:#fff;font-size:12.5px;
+  font-weight:600;text-shadow:0 1px 6px rgba(0,0,0,.45);z-index:2;
+}
+.ty-wall-item::after{
+  content:"";position:absolute;inset:auto 0 0 0;height:52%;
+  background:linear-gradient(180deg,rgba(0,0,0,0),rgba(30,20,28,.55));pointer-events:none;
+}
+.ty-wall-item--lg{grid-column:span 2;grid-row:span 2}
+.ty-wall-item--md{grid-column:span 2}
+
+/* ---------- 动态 / 榜单 ---------- */
+.ty-split{display:grid;grid-template-columns:1.15fr .85fr;gap:34px;align-items:start}
+.ty-timeline{position:relative;padding-left:26px}
+.ty-timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--ty-line)}
+.ty-timeline-item{position:relative;padding-bottom:26px}
+.ty-timeline-item:last-child{padding-bottom:0}
+.ty-timeline-item::before{
+  content:"";position:absolute;left:-26px;top:6px;width:12px;height:12px;
+  border-radius:50%;background:#fff;border:2.5px solid var(--ty-pink);box-shadow:0 0 0 4px var(--ty-pink-soft);
+}
+.ty-timeline-item time{font-size:12.5px;color:var(--ty-pink-deep);font-weight:700;letter-spacing:.04em}
+.ty-timeline-item h3{font-size:15.5px;margin:5px 0 6px;font-weight:700}
+.ty-timeline-item p{font-size:13.5px;color:var(--ty-ink-soft);line-height:1.7}
+.ty-rank{
+  background:#fff;border:1px solid var(--ty-line);border-radius:22px;
+  padding:24px 22px;box-shadow:var(--ty-shadow);
+}
+.ty-rank h3{font-size:17px;font-weight:800;margin-bottom:6px}
+.ty-rank > p{font-size:12.5px;color:var(--ty-ink-soft);margin-bottom:16px}
+.ty-rank li{
+  display:flex;align-items:center;gap:12px;padding:11px 0;border-top:1px dashed var(--ty-line);
+}
+.ty-rank li:first-of-type{border-top:none}
+.ty-rank-no{
+  width:24px;height:24px;border-radius:8px;display:grid;place-items:center;
+  font-size:12.5px;font-weight:800;background:var(--ty-grey);color:var(--ty-ink-soft);flex:0 0 auto;
+}
+.ty-rank li:nth-child(1) .ty-rank-no{background:linear-gradient(135deg,var(--ty-pink),var(--ty-pink-deep));color:#fff}
+.ty-rank li:nth-child(2) .ty-rank-no{background:var(--ty-lilac);color:#fff}
+.ty-rank li:nth-child(3) .ty-rank-no{background:#f3c88b;color:#7a4a12}
+.ty-rank-name{font-size:14px;font-weight:600;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ty-rank-val{font-size:12.5px;color:var(--ty-pink-deep);font-weight:700;flex:0 0 auto}
+
+/* ---------- FAQ ---------- */
+.ty-faq{display:grid;gap:12px;max-width:900px;margin:0 auto}
+.ty-faq details{
+  background:#fff;border:1px solid var(--ty-line);border-radius:16px;
+  padding:0 22px;transition:.22s;
+}
+.ty-faq details[open]{border-color:#f0c2d4;box-shadow:var(--ty-shadow)}
+.ty-faq summary{
+  list-style:none;cursor:pointer;padding:17px 26px 17px 0;font-size:15.5px;
+  font-weight:700;position:relative;
+}
+.ty-faq summary::-webkit-details-marker{display:none}
+.ty-faq summary::after{
+  content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);
+  font-size:20px;font-weight:400;color:var(--ty-pink-deep);transition:.2s;
+}
+.ty-faq details[open] summary::after{content:"–"}
+.ty-faq details p{padding:0 0 19px;font-size:14px;color:var(--ty-ink-soft);line-height:1.8}
+
+/* ---------- 联系 / CTA ---------- */
+.ty-cta{
+  background:linear-gradient(125deg,#3a2a3d 0%,#5f3d54 55%,#7d4a69 100%);
+  color:#fbeef4;border-radius:28px;padding:52px 48px;position:relative;overflow:hidden;
+}
+.ty-cta::before{
+  content:"";position:absolute;width:340px;height:340px;border-radius:50%;
+  background:radial-gradient(circle,rgba(239,127,166,.45),rgba(239,127,166,0) 70%);
+  right:-80px;top:-120px;
+}
+.ty-cta::after{
+  content:"";position:absolute;width:260px;height:260px;border-radius:50%;
+  background:radial-gradient(circle,rgba(143,123,181,.4),rgba(143,123,181,0) 70%);
+  left:-70px;bottom:-120px;
+}
+.ty-cta-inner{position:relative;z-index:2;display:grid;grid-template-columns:1.2fr .8fr;gap:34px;align-items:center}
+.ty-cta h2{font-size:clamp(23px,2.8vw,32px);font-weight:900;margin-bottom:14px;line-height:1.35}
+.ty-cta p{font-size:14.5px;color:#e6cfdb;line-height:1.85;margin-bottom:22px}
+.ty-cta-actions{display:flex;flex-wrap:wrap;gap:12px}
+.ty-cta .ty-btn--primary{background:#fff;color:#8a3557;box-shadow:0 10px 24px rgba(0,0,0,.2)}
+.ty-cta .ty-btn--primary:hover{background:#ffeaf2}
+.ty-cta-list{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:22px}
+.ty-cta-list li{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;padding:9px 0;border-top:1px dashed rgba(255,255,255,.16)}
+.ty-cta-list li:first-child{border-top:none}
+.ty-cta-list b{font-weight:600;color:#ffd9e6}
+
+/* ---------- 页脚 ---------- */
+.ty-footer{background:#251d29;color:#c6b8c6;padding:56px 0 0;margin-top:76px}
+.ty-footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px;padding-bottom:40px}
+.ty-footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.ty-footer-brand .ty-logo-mark{background:linear-gradient(135deg,var(--ty-pink),var(--ty-lilac))}
+.ty-footer-brand b{color:#fff;font-size:17px}
+.ty-footer p{font-size:13.5px;line-height:1.85;color:#a596a8}
+.ty-footer h4{color:#fff;font-size:14px;font-weight:700;margin-bottom:14px;letter-spacing:.03em}
+.ty-footer li{margin-bottom:9px}
+.ty-footer li a{font-size:13.5px;color:#a596a8;transition:.2s}
+.ty-footer li a:hover{color:var(--ty-pink)}
+.ty-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.09);padding:18px 0 26px;
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;
+  font-size:12.5px;color:#8d7f90;
+}
+
+/* ---------- Toast / 弹窗 ---------- */
+.ty-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+  background:rgba(44,36,48,.94);color:#fff;font-size:14px;padding:12px 24px;
+  border-radius:999px;opacity:0;pointer-events:none;transition:.3s;z-index:900;
+  box-shadow:0 12px 30px rgba(0,0,0,.28);
+}
+.ty-toast.is-show{opacity:1;transform:translate(-50%,0)}
+.ty-modal-mask{
+  position:fixed;inset:0;background:rgba(30,20,28,.5);backdrop-filter:blur(3px);
+  display:none;place-items:center;z-index:950;padding:20px;
+}
+.ty-modal-mask.is-open{display:grid}
+.ty-modal{
+  background:#fff;border-radius:22px;width:min(520px,100%);padding:30px 28px;
+  box-shadow:0 30px 70px rgba(0,0,0,.3);position:relative;max-height:86vh;overflow:auto;
+  animation:ty-pop .28s ease;
+}
+@keyframes ty-pop{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}
+.ty-modal h3{font-size:20px;font-weight:800;margin-bottom:8px}
+.ty-modal .ty-modal-sub{font-size:13.5px;color:var(--ty-ink-soft);margin-bottom:20px}
+.ty-field{margin-bottom:14px}
+.ty-field label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--ty-ink)}
+.ty-field input,.ty-field textarea,.ty-field select{
+  width:100%;padding:10px 14px;border-radius:11px;border:1.5px solid var(--ty-line);
+  background:var(--ty-grey);font-size:14px;font-family:inherit;outline:none;transition:.2s;color:var(--ty-ink);
+}
+.ty-field input:focus,.ty-field textarea:focus,.ty-field select:focus{border-color:var(--ty-pink);background:#fff;box-shadow:0 0 0 4px var(--ty-pink-soft)}
+.ty-field textarea{resize:vertical;min-height:88px}
+.ty-modal-close{
+  position:absolute;right:14px;top:12px;width:34px;height:34px;border-radius:50%;
+  display:grid;place-items:center;font-size:20px;color:var(--ty-ink-soft);
+}
+.ty-modal-close:hover{background:var(--ty-grey);color:var(--ty-pink-deep)}
+.ty-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.ty-share-row button{
+  flex:1;min-width:100px;padding:11px 8px;border-radius:12px;background:var(--ty-grey);
+  font-size:13.5px;font-weight:600;color:var(--ty-ink-soft);transition:.2s;
+}
+.ty-share-row button:hover{background:var(--ty-pink-soft);color:var(--ty-pink-deep)}
+
+/* ---------- 回到顶部 ---------- */
+.ty-top-btn{
+  position:fixed;right:26px;bottom:26px;width:46px;height:46px;border-radius:50%;
+  background:linear-gradient(135deg,var(--ty-pink),var(--ty-pink-deep));color:#fff;
+  display:grid;place-items:center;box-shadow:0 10px 26px rgba(217,85,127,.4);
+  opacity:0;pointer-events:none;transform:translateY(12px);transition:.3s;z-index:400;
+}
+.ty-top-btn.is-show{opacity:1;pointer-events:auto;transform:none}
+.ty-top-btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1024px){
+  .ty-hero-inner{grid-template-columns:1fr;gap:38px;padding:48px 0 56px}
+  .ty-hero-visual{max-width:560px}
+  .ty-about-grid{grid-template-columns:1fr}
+  .ty-about-side{position:static}
+  .ty-focus-grid{grid-template-columns:1fr}
+  .ty-grid-3{grid-template-columns:repeat(2,1fr)}
+  .ty-creator-grid{grid-template-columns:repeat(2,1fr)}
+  .ty-split{grid-template-columns:1fr}
+  .ty-cta-inner{grid-template-columns:1fr}
+  .ty-footer-grid{grid-template-columns:1fr 1fr}
+  .ty-wall{grid-template-columns:repeat(3,1fr)}
+  .ty-quote-grid{columns:1}
+}
+@media (max-width:820px){
+  .ty-nav,.ty-search{display:none}
+  .ty-burger{display:grid}
+  .ty-header-inner{height:60px}
+  .ty-topic{grid-template-columns:120px 1fr;row-gap:12px}
+  .ty-topic-state{grid-column:1/-1;flex-direction:row;align-items:center;justify-content:flex-start}
+}
+@media (max-width:640px){
+  .ty-section{padding:54px 0}
+  .ty-grid-3,.ty-creator-grid{grid-template-columns:1fr}
+  .ty-vcard--sm{flex-direction:column}
+  .ty-vcard--sm .ty-vcard-media{width:100%;aspect-ratio:16/9}
+  .ty-topic{grid-template-columns:1fr}
+  .ty-topic-media{max-width:100%}
+  .ty-wall{grid-template-columns:repeat(2,1fr);grid-auto-rows:118px}
+  .ty-wall-item--lg{grid-column:span 2;grid-row:span 1}
+  .ty-wall-item--md{grid-column:span 2}
+  .ty-cta{padding:34px 24px;border-radius:22px}
+  .ty-footer-grid{grid-template-columns:1fr}
+  .ty-hero-stats{gap:24px}
+  .ty-notice-track{animation-duration:20s}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="ty-top-stack">
+  <div class="ty-notice" aria-label="站点公告">
+    <div class="ty-notice-inner">
+      <span class="ty-notice-tag">官方发布</span>
+      <div class="ty-notice-track" id="tyNoticeTrack">
+        <span><b>新增</b>「童颜yandex 四季生活影像展」专题上线，12 位创作者联合呈现</span>
+        <span><b>报名</b>第二季「真实一刻」短片挑战赛开放投稿，截至 12 月 18 日</span>
+        <span><b>更新</b>创作者后台新增脚本灵感与标题建议工具，支持一键下载</span>
+        <span><b>新增</b>「童颜yandex 四季生活影像展」专题上线，12 位创作者联合呈现</span>
+        <span><b>报名</b>第二季「真实一刻」短片挑战赛开放投稿，截至 12 月 18 日</span>
+        <span><b>更新</b>创作者后台新增脚本灵感与标题建议工具，支持一键下载</span>
+      </div>
+    </div>
+  </div>
+  <header class="ty-header">
+    <div class="ty-header-inner">
+      <a class="ty-logo" href="#tyHero" aria-label="童颜yandex 官方网站首页">
+        <span class="ty-logo-mark">童</span>
+        <span class="ty-logo-text">童颜yandex<small>OFFICIAL VIDEO BRAND</small></span>
+      </a>
+      <nav class="ty-nav" aria-label="主导航">
+        <a href="#tyHero" class="is-active">首页</a>
+        <a href="#tyFocus">视频焦点</a>
+        <a href="#tyTopics">专题企划</a>
+        <a href="#tyCreators">创作者</a>
+        <a href="#tyWallSec">影像墙</a>
+        <a href="#tyNews">企业动态</a>
+        <a href="#tyFaq">帮助中心</a>
+      </nav>
+      <div class="ty-header-tools">
+        <form class="ty-search" id="tySearchForm" role="search" onsubmit="return false;">
+          <input type="search" id="tySearchInput" placeholder="搜索视频、创作者、专题" aria-label="站内搜索">
+          <button type="submit" aria-label="提交搜索">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          </button>
+          <div class="ty-search-hint" id="tySearchHint" role="listbox" aria-label="搜索建议"></div>
+        </form>
+        <button class="ty-btn ty-btn--primary" id="tySubmitOpen" type="button">投稿入口</button>
+        <button class="ty-burger" id="tyBurger" type="button" aria-label="展开导航菜单" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+  <nav class="ty-mobile-nav" id="tyMobileNav" aria-label="移动端导航">
+    <a href="#tyHero">首页</a>
+    <a href="#tyFocus">视频焦点</a>
+    <a href="#tyTopics">专题企划</a>
+    <a href="#tyCreators">创作者</a>
+    <a href="#tyWallSec">影像墙</a>
+    <a href="#tyNews">企业动态</a>
+    <a href="#tyFaq">帮助中心</a>
+    <a href="#tyContact">联系与投稿</a>
+  </nav>
+</div>
+
+<main>
+
+<!-- ============ 首屏 ============ -->
+<section class="ty-hero" id="tyHero">
+  <div class="ty-hero-inner">
+    <div class="ty-hero-copy">
+      <span class="ty-hero-badge"><i></i>童颜yandex 官方网站 · 品牌门户</span>
+      <h1 class="ty-h1">童颜yandex</h1>
+      <p class="ty-hero-lead">一个以真实生活质感为核心的原创影像品牌。我们相信镜头可以留住时间，也可以让普通人被看见——在这里，每一条视频都来自认真生活的人。</p>
+      <div class="ty-hero-actions">
+        <a class="ty-btn ty-btn--primary" href="#tyFocus">进入视频焦点</a>
+        <a class="ty-btn ty-btn--ghost" href="#tyCreators">认识创作者</a>
+      </div>
+      <div class="ty-hero-stats">
+        <div class="ty-stat"><b data-count="2860">2860</b><span>原创影像作品</span></div>
+        <div class="ty-stat"><b data-count="420">420</b><span>签约创作者</span></div>
+        <div class="ty-stat"><b data-count="186">186</b><span>万社区用户</span></div>
+      </div>
+    </div>
+    <div class="ty-hero-visual">
+      <div class="ty-hero-frame">
+        <svg viewBox="0 0 640 400" role="img" aria-label="童颜yandex 品牌主视觉：暖光房间中人物剪影与镜头光晕">
+          <defs>
+            <linearGradient id="heroSky" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#fbd9e6"/>
+              <stop offset=".5" stop-color="#f7b1c8"/>
+              <stop offset="1" stop-color="#c9a7d9"/>
+            </linearGradient>
+            <radialGradient id="heroGlow" cx=".72" cy=".28" r=".55">
+              <stop offset="0" stop-color="#fff6e9" stop-opacity=".95"/>
+              <stop offset="1" stop-color="#fff6e9" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="heroGround" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#8a5a78"/>
+              <stop offset="1" stop-color="#4a3045"/>
+            </linearGradient>
+          </defs>
+          <rect width="640" height="400" fill="url(#heroSky)"/>
+          <rect width="640" height="400" fill="url(#heroGlow)"/>
+          <circle cx="470" cy="112" r="52" fill="#fff8ef" opacity=".9"/>
+          <circle cx="470" cy="112" r="76" fill="#fff8ef" opacity=".18"/>
+          <path d="M0 292c84-34 150-26 226-6 78 21 138 26 214 2 72-23 132-26 200-6v118H0z" fill="url(#heroGround)"/>
+          <g opacity=".92">
+            <path d="M255 400c-4-58 10-96 40-122 12-11 22-18 26-34 3-13-3-22-3-32 0-20 14-34 34-34s35 15 35 35c0 11-6 20-3 32 4 17 15 24 27 35 30 26 43 63 40 120z" fill="#3d2838"/>
+            <circle cx="352" cy="170" r="35" fill="#4a3140"/>
+            <path d="M319 168c-2-25 12-45 34-45 21 0 36 18 35 42-11-2-20-9-24-19-9 15-24 21-45 22z" fill="#2f1e2b"/>
+          </g>
+          <g opacity=".7">
+            <rect x="60" y="228" width="62" height="72" rx="8" fill="#c08ba9"/>
+            <rect x="72" y="240" width="38" height="26" rx="4" fill="#ffe6f0" opacity=".8"/>
+            <rect x="150" y="248" width="46" height="52" rx="6" fill="#9d7290"/>
+          </g>
+          <g fill="#fff" opacity=".55">
+            <circle cx="110" cy="96" r="2.6"/><circle cx="180" cy="66" r="2"/><circle cx="270" cy="108" r="2.2"/>
+            <circle cx="560" cy="80" r="2.4"/><circle cx="600" cy="190" r="2"/><circle cx="90" cy="180" r="1.8"/>
+          </g>
+          <g transform="translate(494 266)">
+            <rect x="0" y="0" width="112" height="66" rx="12" fill="#2c2430" opacity=".82"/>
+            <path d="M46 20l24 13-24 13z" fill="#fbe4ee"/>
+            <rect x="14" y="48" width="84" height="5" rx="2.5" fill="#fbe4ee" opacity=".35"/>
+          </g>
+        </svg>
+      </div>
+      <div class="ty-hero-chip ty-hero-chip--a"><i></i>本周新增 46 条原创</div>
+      <div class="ty-hero-chip ty-hero-chip--b"><i></i>4K 高清画质支持</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 品牌解析 ============ -->
+<section class="ty-section" id="tyAbout">
+  <div class="ty-container">
+    <div class="ty-section-head">
+      <span class="ty-eyebrow">Brand Story / 品牌解析</span>
+      <h2 class="ty-h2">童颜yandex 是什么，<em>为什么值得被记录</em></h2>
+      <p class="ty-sub">从一间十平米的剪辑房到持续运营的影像品牌，我们把“童颜”理解为一种不被时间磨损的状态，把 yandex 理解为不断向前搜索的动作——两者相加，就是这个平台的全部答案。</p>
+    </div>
+    <div class="ty-about-grid">
+      <div class="ty-about-copy">
+        <p><strong>童颜yandex 官方网站</strong>是一个以中文原创视频为核心的品牌门户，隶属于持续运营的内容企业。我们不追逐短促的热点，而是把视线放在那些真正经得起回看的影像上：一个女孩剪去长发的下午、一间老照相馆关门前的最后一天、一位面包师凌晨四点的面团、一对夫妇在厨房里安静地切菜。这些片段构成了童颜yandex 的内容底色，也构成了我们与一百八十六万用户之间的信任基础。</p>
+        <p>作为深耕生活影像垂直领域的平台，童颜yandex 从成立第一年起就坚持三件事：<strong>原创、正版、高清</strong>。所有上架内容均经过创作者授权与内容审核，画质标准统一为 1080P 以上，重要专题支持 4K 呈现。我们相信，品质不是营销词汇，而是用户打开播放页那一刻能立刻感受到的清晰与稳定。口碑来自一次次不糊弄的播放体验。</p>
+        <p>平台目前由四条内容线构成：<strong>真实生活记录、实用经验分享、人物访谈与深度观察、影像实验</strong>。四条线互相支撑，既有柴米油盐的具体，也有对行业与生活的思考。我们希望童颜yandex 不只是一个看视频的地方，而是一个内容生态——创作者在这里获得成长，用户在这里获得陪伴，品牌在这里获得真实的表达空间。</p>
+        <p>在创作者一侧，童颜yandex 提供从选题、脚本、拍摄到剪辑的完整工具链，并定期举办短片挑战赛、作品投票与线下放映。我们不做流量分配的黑箱，而是把推荐逻辑公开在帮助中心里，让每一位创作者知道自己的作品为什么被看见。这种透明，是我们对“用户至上”最直接的理解。</p>
+        <p>今天，童颜yandex 已经与多家生活品牌、地方文化机构、独立影像工作室建立长期合作。我们参与城市影像档案的整理，也支持年轻人用手机完成第一部短片。企业的社会责任不写在墙上，而体现在每一次内容审核的尺度、每一笔创作基金的发放、每一场社区活动的组织里。</p>
+        <p>如果你也在认真生活，并且愿意把这份认真拍下来，欢迎加入童颜yandex。这里没有必须成为网红的要求，只有一条简单的标准：<strong>真实、温暖、有力量</strong>。镜头不必昂贵，故事不必宏大，只要它是你的，就值得被认真呈现。</p>
+        <div class="ty-pill-row">
+          <span class="ty-pill ty-pill--pink">原创影像</span>
+          <span class="ty-pill">生活记录</span>
+          <span class="ty-pill">人物访谈</span>
+          <span class="ty-pill ty-pill--pink">高清正版</span>
+          <span class="ty-pill">内容生态</span>
+          <span class="ty-pill">社区共建</span>
+        </div>
+      </div>
+      <aside class="ty-about-side">
+        <h3>品牌关键词速览</h3>
+        <ul>
+          <li><b>定位</b><span>生活影像垂直领域官方视频门户</span></li>
+          <li><b>内容线</b><span>记录 / 经验 / 访谈 / 实验 四条主线</span></li>
+          <li><b>画质</b><span>统一 1080P 起，重点专题 4K</span></li>
+          <li><b>审核</b><span>人工双审 + 原创版权核验</span></li>
+          <li><b>社区</b><span>420 位签约创作者，月度主题共创</span></li>
+          <li><b>合作</b><span>生活品牌、文化机构、独立工作室</span></li>
+        </ul>
+        <a class="ty-btn ty-btn--ghost" href="#tyContact" style="width:100%;margin-top:18px">了解合作方式</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 视频焦点 ============ -->
+<section class="ty-section ty-section--alt" id="tyFocus">
+  <div class="ty-container">
+    <div class="ty-section-head">
+      <span class="ty-eyebrow">Video Focus / 视频焦点</span>
+      <h2 class="ty-h2">本周值得完整看完的<em>五条影像</em></h2>
+      <p class="ty-sub">编辑部从近七天上架的作品中挑出五条，它们题材不同、节奏不同，但都保留了一个共同的品质：不着急。</p>
+    </div>
+    <div class="ty-focus-grid">
+      <article class="ty-vcard ty-vcard--lg">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 640 360" role="img" aria-label="《她把长发剪短的下午》视频封面：理发店镜前的长发与剪刀">
+            <defs>
+              <linearGradient id="f1bg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f9e2ea"/><stop offset="1" stop-color="#e6d3ef"/>
+              </linearGradient>
+            </defs>
+            <rect width="640" height="360" fill="url(#f1bg)"/>
+            <rect x="0" y="250" width="640" height="110" fill="#d9b6c8" opacity=".55"/>
+            <ellipse cx="320" cy="322" rx="188" ry="26" fill="#b98fa8" opacity=".38"/>
+            <g>
+              <ellipse cx="320" cy="132" rx="56" ry="64" fill="#f6dfcb"/>
+              <path d="M264 128c-6-66 34-96 56-96s64 30 56 96c-8-2-14-12-17-24-12 16-26 22-39 22-16 0-30-7-40-22-4 12-9 22-16 24z" fill="#4a3140"/>
+              <path d="M258 160c-10 62-2 116 8 150h108c10-34 18-88 8-150-14 22-36 32-62 32s-48-10-62-32z" fill="#6b4258"/>
+              <path d="M300 172c8 18 32 18 40 0" stroke="#c98a9c" stroke-width="5" fill="none" stroke-linecap="round"/>
+              <circle cx="298" cy="140" r="4.5" fill="#3c2a34"/><circle cx="344" cy="140" r="4.5" fill="#3c2a34"/>
+              <path d="M306 158c8 6 20 6 28 0" stroke="#b96a80" stroke-width="4" fill="none" stroke-linecap="round"/>
+            </g>
+            <g transform="translate(430 190) rotate(18)">
+              <rect x="0" y="0" width="10" height="86" rx="5" fill="#a8a2ad"/>
+              <circle cx="5" cy="0" r="12" fill="none" stroke="#a8a2ad" stroke-width="5"/>
+              <circle cx="5" cy="82" r="4" fill="#a8a2ad"/>
+            </g>
+            <rect x="24" y="22" width="126" height="30" rx="15" fill="#ffffff" opacity=".78"/>
+            <text x="44" y="43" font-size="15" fill="#8a3557" font-family="sans-serif" font-weight="600">人物记录</text>
+          </svg>
+          <span class="ty-vcard-tagline">人物记录</span>
+          <span class="ty-vcard-duration">12:48</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>她把长发剪短的下午：一次不告而别的告别</h3>
+          <p class="ty-vcard-desc">摄影师周未未跟拍了朋友林知夏剪发的整个下午。没有解说，没有配乐高潮，只有剪刀的咔哒声和两个人的沉默。她们都清楚，这一刀剪掉的不只是头发。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#ef7fa6,#c9a7d9)">周</span>
+            <span>周未未</span>
+            <span>·</span><span>11 月 16 日</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>1286</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+              <button class="ty-act" type="button" data-share data-title="她把长发剪短的下午：一次不告而别的告别"><svg viewBox="0 0 24 24"><circle cx="18" cy="6" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="18" r="2.6"/><path d="M8.4 10.8l7.2-3.6M8.4 13.2l7.2 3.6"/></svg>分享</button>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="ty-focus-side">
+        <article class="ty-vcard ty-vcard--sm">
+          <div class="ty-vcard-media">
+            <svg viewBox="0 0 320 200" role="img" aria-label="《凌晨四点的面包房》视频封面：揉面台与暖黄灯光">
+              <rect width="320" height="200" fill="#f5d9b4"/>
+              <rect y="132" width="320" height="68" fill="#c9985f"/>
+              <rect x="34" y="70" width="250" height="14" rx="7" fill="#a97a49"/>
+              <ellipse cx="120" cy="66" rx="46" ry="24" fill="#f3e3c8"/>
+              <ellipse cx="120" cy="58" rx="46" ry="22" fill="#fff4df"/>
+              <ellipse cx="214" cy="66" rx="38" ry="20" fill="#e7cfa6"/>
+              <circle cx="272" cy="36" r="18" fill="#ffe7a8" opacity=".85"/>
+              <path d="M0 0h320v34H0z" fill="#3a2a20" opacity=".18"/>
+            </svg>
+            <span class="ty-vcard-play" aria-hidden="true"></span>
+          </div>
+          <div class="ty-vcard-body">
+            <h3>凌晨四点的面包房，面团也会呼吸</h3>
+            <p class="ty-vcard-desc">跟拍一位开面包房十一年的师傅，记录他每天最早的那两个小时。</p>
+            <div class="ty-vcard-meta">
+              <span class="ty-avatar" style="background:linear-gradient(135deg,#d98a4a,#c2632f)">麦</span>
+              <span>麦先生说</span>
+              <span>·</span><span>09:12</span>
+            </div>
+          </div>
+        </article>
+        <article class="ty-vcard ty-vcard--sm">
+          <div class="ty-vcard-media">
+            <svg viewBox="0 0 320 200" role="img" aria-label="《老照相馆的最后一卷胶片》视频封面：暗房红光与胶片条">
+              <rect width="320" height="200" fill="#3a1f28"/>
+              <circle cx="252" cy="52" r="34" fill="#c2384f" opacity=".55"/>
+              <g fill="#f7c8d4" opacity=".9">
+                <rect x="26" y="34" width="180" height="16" rx="4"/>
+                <rect x="26" y="58" width="180" height="16" rx="4" opacity=".7"/>
+                <rect x="26" y="82" width="180" height="16" rx="4" opacity=".45"/>
+              </g>
+              <g fill="#2a1620">
+                <rect x="34" y="38" width="8" height="8"/><rect x="52" y="38" width="8" height="8"/><rect x="70" y="38" width="8" height="8"/>
+                <rect x="34" y="62" width="8" height="8"/><rect x="52" y="62" width="8" height="8"/><rect x="70" y="62" width="8" height="8"/>
+              </g>
+              <path d="M0 150h320v50H0z" fill="#572f3d"/>
+            </svg>
+            <span class="ty-vcard-play" aria-hidden="true"></span>
+          </div>
+          <div class="ty-vcard-body">
+            <h3>老照相馆的最后一卷胶片</h3>
+            <p class="ty-vcard-desc">店铺关门那天，老板冲洗了压在抽屉里六年的底片。</p>
+            <div class="ty-vcard-meta">
+              <span class="ty-avatar" style="background:linear-gradient(135deg,#8f7bb5,#5b4a80)">谢</span>
+              <span>谢小满</span>
+              <span>·</span><span>15:36</span>
+            </div>
+          </div>
+        </article>
+        <article class="ty-vcard ty-vcard--sm">
+          <div class="ty-vcard-media">
+            <svg viewBox="0 0 320 200" role="img" aria-label="《厨房里的两个人》视频封面：砧板蔬菜与两双手">
+              <rect width="320" height="200" fill="#f2ecdf"/>
+              <rect y="126" width="320" height="74" fill="#c6a888"/>
+              <rect x="42" y="86" width="180" height="48" rx="8" fill="#e3cba6"/>
+              <circle cx="96" cy="108" r="17" fill="#7fae6a"/>
+              <circle cx="140" cy="112" r="13" fill="#d8695a"/>
+              <rect x="164" y="96" width="42" height="28" rx="6" fill="#f7d772"/>
+              <path d="M240 92c14 4 22 16 22 34" stroke="#a8785f" stroke-width="11" fill="none" stroke-linecap="round"/>
+              <path d="M60 60c10 4 16 12 16 24" stroke="#a8785f" stroke-width="11" fill="none" stroke-linecap="round"/>
+            </svg>
+            <span class="ty-vcard-play" aria-hidden="true"></span>
+          </div>
+          <div class="ty-vcard-body">
+            <h3>厨房里的两个人：不说话的晚餐也温柔</h3>
+            <p class="ty-vcard-desc">一对结婚九年的夫妻，每周三固定一起做饭，全程几乎不说话。</p>
+            <div class="ty-vcard-meta">
+              <span class="ty-avatar" style="background:linear-gradient(135deg,#ef7fa6,#d9557f)">林</span>
+              <span>林一勺</span>
+              <span>·</span><span>18:24</span>
+            </div>
+          </div>
+        </article>
+        <article class="ty-vcard ty-vcard--sm">
+          <div class="ty-vcard-media">
+            <svg viewBox="0 0 320 200" role="img" aria-label="《一条街的二十年》视频封面：老街骑楼与行人">
+              <rect width="320" height="200" fill="#bcd2dd"/>
+              <rect y="150" width="320" height="50" fill="#8a9aa3"/>
+              <g fill="#e7dfd2">
+                <rect x="20" y="52" width="86" height="98"/><rect x="118" y="34" width="90" height="116"/><rect x="220" y="62" width="82" height="88"/>
+              </g>
+              <g fill="#7b8b94">
+                <rect x="34" y="68" width="20" height="24"/><rect x="68" y="68" width="20" height="24"/>
+                <rect x="132" y="52" width="22" height="26"/><rect x="168" y="52" width="22" height="26"/>
+                <rect x="236" y="78" width="20" height="22"/><rect x="266" y="78" width="20" height="22"/>
+              </g>
+              <g fill="#4a5560">
+                <circle cx="150" cy="150" r="7"/><path d="M143 150h14v26h-14z"/>
+                <circle cx="196" cy="154" r="6"/><path d="M190 154h12v22h-12z"/>
+              </g>
+            </svg>
+            <span class="ty-vcard-play" aria-hidden="true"></span>
+          </div>
+          <div class="ty-vcard-body">
+            <h3>一条街的二十年：从骑楼到咖啡馆</h3>
+            <p class="ty-vcard-desc">城市更新影像档案第二期，走访了同一条街上的七户人家。</p>
+            <div class="ty-vcard-meta">
+              <span class="ty-avatar" style="background:linear-gradient(135deg,#6f9fb8,#3d6b83)">城</span>
+              <span>城市切片</span>
+              <span>·</span><span>21:06</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 视频流 ============ -->
+<section class="ty-section" id="tyStream">
+  <div class="ty-container">
+    <div class="ty-section-head">
+      <span class="ty-eyebrow">Community Stream / 热门内容</span>
+      <h2 class="ty-h2">来自社区的<em>九条视频</em></h2>
+      <p class="ty-sub">按标签筛一筛，看看别人认真生活的样子。每一条都由创作者独立拍摄并授权发布，支持高清播放与收藏。</p>
+    </div>
+    <div class="ty-filter-row" id="tyFilterRow" role="tablist" aria-label="内容标签筛选">
+      <button class="ty-filter is-active" type="button" data-filter="all">全部</button>
+      <button class="ty-filter" type="button" data-filter="记录">日常记录</button>
+      <button class="ty-filter" type="button" data-filter="经验">经验分享</button>
+      <button class="ty-filter" type="button" data-filter="访谈">人物访谈</button>
+      <button class="ty-filter" type="button" data-filter="手艺">手艺与创作</button>
+    </div>
+    <div class="ty-grid-3" id="tyStreamGrid">
+
+      <article class="ty-vcard" data-cat="记录">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《阳台上的第三年》视频封面：城市清晨的阳台与绿植">
+            <rect width="400" height="225" fill="#cfe0e8"/>
+            <rect y="150" width="400" height="75" fill="#a8bcc6"/>
+            <g fill="#e6efe9"><rect x="30" y="106" width="110" height="94"/><rect x="264" y="120" width="106" height="80"/></g>
+            <g fill="#93aab4"><rect x="48" y="124" width="22" height="26"/><rect x="88" y="124" width="22" height="26"/><rect x="284" y="138" width="20" height="22"/><rect x="320" y="138" width="20" height="22"/></g>
+            <g fill="#5f8a63">
+              <path d="M182 150c-6-30 6-52 22-62-2 22-8 44-4 62z"/>
+              <path d="M206 150c8-24 26-34 42-34-10 16-24 26-24 34z"/>
+              <circle cx="176" cy="152" r="16" fill="#7aa87c"/>
+            </g>
+          </svg>
+          <span class="ty-vcard-tagline">日常记录</span>
+          <span class="ty-vcard-duration">10:22</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>阳台上的第三年：从一盆枯草到十七盆花</h3>
+          <p class="ty-vcard-desc">城市里也能种出一整个春天，我把三年的失败和成功都拍下来了。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#7aa87c,#4d7a52)">木</span>
+            <span>木食记</span><span>·</span><span>32.6 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>842</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ty-vcard" data-cat="经验">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《手机也能拍出电影感》视频封面：手机支架与虚化光斑">
+            <rect width="400" height="225" fill="#26212c"/>
+            <circle cx="80" cy="52" r="42" fill="#ef7fa6" opacity=".35"/>
+            <circle cx="150" cy="34" r="20" fill="#8f7bb5" opacity=".45"/>
+            <rect x="146" y="58" width="112" height="140" rx="16" fill="#3b3342"/>
+            <rect x="156" y="70" width="92" height="112" rx="10" fill="#6a5c74"/>
+            <circle cx="202" cy="188" r="5" fill="#c9bfd2"/>
+            <g stroke="#f7c8d4" stroke-width="3" fill="none" opacity=".8">
+              <path d="M292 80h60M292 104h44M292 128h52"/>
+            </g>
+            <circle cx="330" cy="170" r="12" fill="#f7c8d4" opacity=".7"/>
+          </svg>
+          <span class="ty-vcard-tagline">经验分享</span>
+          <span class="ty-vcard-duration">08:41</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>手机也能拍出电影感：六个不用买器材的构图习惯</h3>
+          <p class="ty-vcard-desc">从光源判断到运镜节奏，我把三年拍摄笔记整理成了六条可执行建议。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#8f7bb5,#5b4a80)">镜</span>
+            <span>镜头之外</span><span>·</span><span>25.1 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>1204</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ty-vcard" data-cat="访谈">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《访谈：做了十二年手账的人》视频封面：摊开的手账与彩笔">
+            <rect width="400" height="225" fill="#f3e3cf"/>
+            <rect x="46" y="34" width="308" height="158" rx="10" fill="#fffaf0"/>
+            <path d="M200 34v158" stroke="#e0cbb0" stroke-width="2"/>
+            <g stroke="#c9a7d9" stroke-width="3" fill="none">
+              <path d="M72 66h108M72 84h96M72 102h108M72 120h72"/>
+            </g>
+            <g stroke="#ef7fa6" stroke-width="3" fill="none">
+              <path d="M222 66h108M222 84h84M222 102h108"/>
+            </g>
+            <rect x="250" y="126" width="60" height="34" rx="6" fill="#f7d772"/>
+            <g transform="translate(64 142)">
+              <rect width="8" height="46" rx="4" fill="#d9557f"/><rect x="14" width="8" height="46" rx="4" fill="#6f9fb8"/><rect x="28" width="8" height="46" rx="4" fill="#7aa87c"/>
+            </g>
+          </svg>
+          <span class="ty-vcard-tagline">人物访谈</span>
+          <span class="ty-vcard-duration">17:03</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>做了十二年手账的人，怎么记录普通的一天</h3>
+          <p class="ty-vcard-desc">她写满了四十七本手账，却说自己从没记录过什么大事。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#d9557f,#8a3557)">谢</span>
+            <span>谢小满</span><span>·</span><span>18.4 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>663</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ty-vcard" data-cat="手艺">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《拉坯第十次失败》视频封面：陶轮与泥坯">
+            <rect width="400" height="225" fill="#d9c3ae"/>
+            <rect y="158" width="400" height="67" fill="#b99b80"/>
+            <ellipse cx="200" cy="158" rx="104" ry="20" fill="#a8876a"/>
+            <path d="M156 158c-4-46 12-76 44-76s48 30 44 76z" fill="#c9a88a"/>
+            <ellipse cx="200" cy="86" rx="44" ry="12" fill="#b28f70"/>
+            <g fill="#8a6b52">
+              <circle cx="200" cy="196" r="4"/><circle cx="168" cy="204" r="3"/><circle cx="236" cy="204" r="3"/>
+            </g>
+            <path d="M76 40c22 12 34 30 34 54" stroke="#8a6b52" stroke-width="10" fill="none" stroke-linecap="round"/>
+          </svg>
+          <span class="ty-vcard-tagline">手艺与创作</span>
+          <span class="ty-vcard-duration">13:57</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>拉坯第十次失败之后，我学会和泥巴说话</h3>
+          <p class="ty-vcard-desc">陶艺新手的前三个月，失败九次，成功一次，但那次成功值得整部片子。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#b99b80,#8a6b52)">土</span>
+            <span>土器studio</span><span>·</span><span>12.8 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>517</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ty-vcard" data-cat="记录">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《凌晨的便利店》视频封面：夜色中的便利店橱窗">
+            <rect width="400" height="225" fill="#1f2b3a"/>
+            <rect y="170" width="400" height="55" fill="#3a4b5e"/>
+            <rect x="96" y="52" width="208" height="118" rx="8" fill="#f2e4cc"/>
+            <rect x="112" y="68" width="176" height="88" fill="#fff6e2"/>
+            <g fill="#e2c99f"><rect x="124" y="80" width="40" height="76"/><rect x="176" y="80" width="40" height="76"/><rect x="228" y="80" width="40" height="76"/></g>
+            <g fill="#c2384f"><rect x="112" y="40" width="176" height="16" rx="4"/></g>
+            <text x="176" y="53" font-size="12" fill="#fff" font-family="sans-serif" font-weight="700">24H</text>
+            <circle cx="330" cy="40" r="16" fill="#ffe7a8" opacity=".7"/>
+            <g fill="#8fa3b8" opacity=".7"><rect x="40" y="96" width="30" height="74"/><rect x="330" y="96" width="30" height="74"/></g>
+          </svg>
+          <span class="ty-vcard-tagline">日常记录</span>
+          <span class="ty-vcard-duration">09:14</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>凌晨的便利店，收留着整条街的疲惫</h3>
+          <p class="ty-vcard-desc">连续十二个夜晚，我坐在同一张高脚椅上，记录路过的人。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#6f9fb8,#3d6b83)">夜</span>
+            <span>夜行笔记</span><span>·</span><span>41.2 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>1932</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ty-vcard" data-cat="经验">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《一个人做饭的三十天》视频封面：小锅与砧板俯拍">
+            <rect width="400" height="225" fill="#e8dfd0"/>
+            <rect x="36" y="34" width="328" height="158" rx="10" fill="#c9a98a"/>
+            <circle cx="160" cy="112" r="56" fill="#4a3b30"/>
+            <circle cx="160" cy="112" r="44" fill="#6b5645"/>
+            <g fill="#e8b76a"><ellipse cx="148" cy="100" rx="14" ry="9"/><ellipse cx="176" cy="118" rx="12" ry="8"/><ellipse cx="150" cy="132" rx="10" ry="7"/></g>
+            <g fill="#7aa87c"><ellipse cx="178" cy="94" rx="10" ry="6"/><ellipse cx="142" cy="120" rx="8" ry="5"/></g>
+            <rect x="248" y="70" width="90" height="12" rx="6" fill="#f3e3c8"/>
+            <rect x="248" y="96" width="72" height="12" rx="6" fill="#f3e3c8"/>
+            <rect x="248" y="122" width="82" height="12" rx="6" fill="#f3e3c8"/>
+          </svg>
+          <span class="ty-vcard-tagline">经验分享</span>
+          <span class="ty-vcard-duration">11:32</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>一个人做饭的三十天：十五分钟晚餐清单</h3>
+          <p class="ty-vcard-desc">我把每天下班后做的饭拍成了表格，最后留下最省力的七道。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#e0935a,#b56634)">林</span>
+            <span>林一勺</span><span>·</span><span>58.7 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>2411</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ty-vcard" data-cat="访谈">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《访谈：辞职去修旧家具的第八年》视频封面：木工房与刨花">
+            <rect width="400" height="225" fill="#d9c0a3"/>
+            <rect y="160" width="400" height="65" fill="#b0906f"/>
+            <rect x="52" y="70" width="150" height="22" rx="5" fill="#8a6b52"/>
+            <rect x="70" y="92" width="18" height="70" fill="#8a6b52"/>
+            <rect x="166" y="92" width="18" height="70" fill="#8a6b52"/>
+            <path d="M260 60c30 10 48 30 48 62v38h-30v-40c0-22-10-36-30-44z" fill="#a8825f"/>
+            <g fill="#f0dcbc"><ellipse cx="240" cy="176" rx="26" ry="8"/><ellipse cx="300" cy="186" rx="20" ry="6"/><ellipse cx="128" cy="186" rx="18" ry="6"/></g>
+            <g stroke="#7c5d43" stroke-width="4" fill="none" opacity=".7"><path d="M330 40l40 24M330 60l36 20"/></g>
+          </svg>
+          <span class="ty-vcard-tagline">人物访谈</span>
+          <span class="ty-vcard-duration">21:18</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>辞职去修旧家具的第八年，他说不后悔</h3>
+          <p class="ty-vcard-desc">从写字楼到木工房，他修好了三百多件别人不要的家具。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#a8825f,#7c5d43)">未</span>
+            <span>周未未</span><span>·</span><span>27.3 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>1108</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ty-vcard" data-cat="手艺">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《用旧衬衫做一只包》视频封面：缝纫机与布料">
+            <rect width="400" height="225" fill="#efe6f2"/>
+            <rect x="60" y="60" width="160" height="100" rx="8" fill="#b8a3c9" transform="rotate(-6 140 110)"/>
+            <path d="M74 96h132M74 122h132" stroke="#fff" stroke-width="3" opacity=".6"/>
+            <g>
+              <rect x="228" y="104" width="120" height="46" rx="10" fill="#5b4a80"/>
+              <rect x="240" y="70" width="16" height="40" rx="6" fill="#8f7bb5"/>
+              <circle cx="286" cy="96" r="16" fill="#f2e4cc"/>
+              <path d="M300 126h34" stroke="#f2e4cc" stroke-width="4" stroke-linecap="round"/>
+            </g>
+            <g fill="#d9557f"><circle cx="316" cy="168" r="6"/><circle cx="334" cy="176" r="4"/><circle cx="300" cy="178" r="4"/></g>
+          </svg>
+          <span class="ty-vcard-tagline">手艺与创作</span>
+          <span class="ty-vcard-duration">14:06</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>用爸爸的旧衬衫做一只包，针脚歪也没关系</h3>
+          <p class="ty-vcard-desc">第一次用缝纫机，拆了三次线，但成品我打算用很久。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#8f7bb5,#5b4a80)">布</span>
+            <span>布丁手作</span><span>·</span><span>9.6 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>389</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="ty-vcard" data-cat="记录">
+        <div class="ty-vcard-media">
+          <svg viewBox="0 0 400 225" role="img" aria-label="《搬家那天》视频封面：纸箱与空荡的房间">
+            <rect width="400" height="225" fill="#e5e0d8"/>
+            <rect y="168" width="400" height="57" fill="#c9c2b6"/>
+            <rect x="60" y="86" width="90" height="82" rx="4" fill="#c9a47c"/>
+            <rect x="60" y="86" width="90" height="16" fill="#b08c65"/>
+            <rect x="176" y="112" width="70" height="56" rx="4" fill="#d9b78f"/>
+            <rect x="270" y="70" width="86" height="98" rx="4" fill="#c9a47c"/>
+            <rect x="270" y="70" width="86" height="16" fill="#b08c65"/>
+            <path d="M104 40c0 18-14 26-14 26s-14-8-14-26a14 14 0 0 1 28 0z" fill="#a8bcc6"/>
+            <rect x="300" y="140" width="30" height="28" rx="3" fill="#efe6d8"/>
+          </svg>
+          <span class="ty-vcard-tagline">日常记录</span>
+          <span class="ty-vcard-duration">08:39</span>
+          <span class="ty-vcard-play" aria-hidden="true"></span>
+        </div>
+        <div class="ty-vcard-body">
+          <h3>搬家那天，我把六年的房间拍成了一封信</h3>
+          <p class="ty-vcard-desc">从玄关走到窗边，一共十四步，我走了六年。</p>
+          <div class="ty-vcard-meta">
+            <span class="ty-avatar" style="background:linear-gradient(135deg,#a8bcc6,#6f8a99)">小</span>
+            <span>小满的抽屉</span><span>·</span><span>16.5 万播放</span>
+            <div class="ty-vcard-actions">
+              <button class="ty-act" type="button" data-like><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-9.4A4 4 0 0 1 12 7a4 4 0 0 1 7 3.6C19 15.6 12 20 12 20z"/></svg><span data-count>734</span></button>
+              <button class="ty-act" type="button" data-fav><svg viewBox="0 0 24 24"><path d="M12 4l2.5 5.2 5.5.8-4 3.9 1 5.6L12 16.9 6.9 19.5l1-5.6-4-3.9 5.5-.8z"/></svg><span>收藏</span></button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+    <p class="ty-sub" id="tyStreamEmpty" style="display:none;text-align:center;padding:40px 0;">该标签下暂无内容，换个筛选看看别的主题吧。</p>
+  </div>
+</section>
+
+<!-- ============ 专题 ============ -->
+<section class="ty-section ty-section--alt" id="tyTopics">
+  <div class="ty-container">
+    <div class="ty-section-head">
+      <span class="ty-eyebrow">Special Programs / 专题企划</span>
+      <h2 class="ty-h2">正在进行的<em>四组企划</em></h2>
+      <p class="ty-sub">专题是童颜yandex 内容生态里最重的一环。一个专题通常持续两到三个月，由编辑部发起、创作者共同完成，最后汇成一份可以完整回看的影像档案。</p>
+    </div>
+    <div class="ty-topic-list">
+
+      <article class="ty-topic">
+        <div class="ty-topic-media">
+          <svg viewBox="0 0 200 125" role="img" aria-label="四季生活影像展专题封面：四格季节色彩">
+            <rect width="200" height="125" fill="#fce7ef"/>
+            <rect x="8" y="8" width="88" height="52" rx="6" fill="#a8d5c2"/>
+            <rect x="104" y="8" width="88" height="52" rx="6" fill="#f7d772"/>
+            <rect x="8" y="66" width="88" height="51" rx="6" fill="#e0935a"/>
+            <rect x="104" y="66" width="88" height="51" rx="6" fill="#a8bcc6"/>
+            <circle cx="52" cy="34" r="12" fill="#fff" opacity=".7"/>
+            <path d="M148 34l10 10 16-18" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M30 96l14-16 14 16z" fill="#fff" opacity=".65"/>
+            <rect x="130" y="88" width="40" height="10" rx="5" fill="#fff" opacity=".7"/>
+          </svg>
+        </div>
+        <div>
+          <h3>童颜yandex 四季生活影像展</h3>
+          <p>以春夏秋冬为章节，邀请十二位创作者各拍一支十五分钟以内短片。目前已上线秋季与冬季共六支，春季部分仍在拍摄中。专题将在明年三月举办线下放映。</p>
+        </div>
+        <div class="ty-topic-state">
+          <span class="ty-badge ty-badge--live">更新中</span>
+          <span class="ty-topic-count">已上线 6 支</span>
+        </div>
+      </article>
+
+      <article class="ty-topic">
+        <div class="ty-topic-media">
+          <svg viewBox="0 0 200 125" role="img" aria-label="真实一刻短片挑战赛专题封面：奖杯与场记板">
+            <rect width="200" height="125" fill="#efe9f8"/>
+            <rect x="28" y="34" width="86" height="58" rx="6" fill="#2c2430"/>
+            <path d="M28 46l86-14v-8l-86 14z" fill="#5b4a80"/>
+            <g fill="#fff" opacity=".85"><rect x="40" y="56" width="62" height="4"/><rect x="40" y="66" width="46" height="4"/></g>
+            <g transform="translate(128 40)">
+              <path d="M12 0h28v12c0 18-8 28-14 32-6-4-14-14-14-32z" fill="#f0b64a"/>
+              <rect x="20" y="44" width="12" height="14" fill="#d99a2b"/>
+              <rect x="10" y="58" width="32" height="8" rx="4" fill="#b5811f"/>
+            </g>
+            <circle cx="36" cy="108" r="4" fill="#d9557f"/><circle cx="52" cy="108" r="4" fill="#8f7bb5"/>
+          </svg>
+        </div>
+        <div>
+          <h3>第二季「真实一刻」短片挑战赛</h3>
+          <p>不限器材、不限题材，只要求作品来自真实生活。评审由三位纪录片导演与编辑部共同担任，获奖作品将获得创作基金与官方推荐资源。报名通道开放至 12 月 18 日。</p>
+        </div>
+        <div class="ty-topic-state">
+          <span class="ty-badge ty-badge--hot">报名中</span>
+          <span class="ty-topic-count">已有 386 人报名</span>
+        </div>
+      </article>
+
+      <article class="ty-topic">
+        <div class="ty-topic-media">
+          <svg viewBox="0 0 200 125" role="img" aria-label="城市切片影像档案专题封面：俯视街区地图">
+            <rect width="200" height="125" fill="#cfe0e8"/>
+            <path d="M0 84h200v41H0z" fill="#a8bcc6"/>
+            <path d="M0 30h200v12H0zM0 58h200v10H0z" fill="#e6efe9" opacity=".9"/>
+            <rect x="16" y="42" width="34" height="16" fill="#8ba4b1"/>
+            <rect x="66" y="42" width="46" height="16" fill="#8ba4b1"/>
+            <rect x="128" y="42" width="30" height="16" fill="#8ba4b1"/>
+            <rect x="76" y="72" width="38" height="12" fill="#6f8a99"/>
+            <circle cx="160" cy="98" r="8" fill="#d9557f"/>
+            <path d="M160 90v-8" stroke="#d9557f" stroke-width="3"/>
+          </svg>
+        </div>
+        <div>
+          <h3>城市切片：一份民间影像档案</h3>
+          <p>与地方文化机构合作，长期记录老街区、老店铺与老手艺。每一期选择一个街区，完成不少于十支短片的拍摄，最终素材将归档保存，供研究与展映使用。</p>
+        </div>
+        <div class="ty-topic-state">
+          <span class="ty-badge ty-badge--live">长期进行</span>
+          <span class="ty-topic-count">已覆盖 7 个街区</span>
+        </div>
+      </article>
+
+      <article class="ty-topic">
+        <div class="ty-topic-media">
+          <svg viewBox="0 0 200 125" role="img" aria-label="深夜创作者FM专题封面：麦克风与耳机">
+            <rect width="200" height="125" fill="#2a2233"/>
+            <circle cx="74" cy="54" r="26" fill="#4a3d58"/>
+            <rect x="66" y="26" width="16" height="20" rx="8" fill="#c9a7d9"/>
+            <path d="M56 54c0 14 8 24 18 24s18-10 18-24" stroke="#c9a7d9" stroke-width="5" fill="none"/>
+            <rect x="70" y="78" width="8" height="18" fill="#c9a7d9"/>
+            <rect x="58" y="96" width="32" height="6" rx="3" fill="#c9a7d9"/>
+            <g stroke="#ef7fa6" stroke-width="4" fill="none" opacity=".9">
+              <path d="M122 44v34M136 36v50M150 50v24M164 30v54M178 46v30"/>
+            </g>
+          </svg>
+        </div>
+        <div>
+          <h3>深夜创作者 FM</h3>
+          <p>一档访谈音频加视频的混合企划，每期邀请一位创作者聊创作中的困境与转折。录制不设提纲，保留停顿和沉默，被听众称为“睡前的那盏小灯”。</p>
+        </div>
+        <div class="ty-topic-state">
+          <span class="ty-badge ty-badge--soon">筹备中</span>
+          <span class="ty-topic-count">第三季 12 月开播</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 创作者矩阵 ============ -->
+<section class="ty-section" id="tyCreators">
+  <div class="ty-container">
+    <div class="ty-section-head">
+      <span class="ty-eyebrow">Creators / 创作者矩阵</span>
+      <h2 class="ty-h2">在童颜yandex 持续更新的<em>六位创作者</em></h2>
+      <p class="ty-sub">他们中有全职创作者，也有下班后拍片子的普通人。共同点是：都愿意花时间把一件小事说清楚。</p>
+    </div>
+    <div class="ty-creator-grid">
+
+      <article class="ty-creator">
+        <div class="ty-creator-avatar" style="background:linear-gradient(135deg,#ef7fa6,#c9a7d9)">周</div>
+        <h3>周未未</h3>
+        <p class="ty-domain">人物访谈 · 人文记录</p>
+        <p>纪录片编导出身的独立创作者，擅长用长镜头和极少剪辑。她说自己的片子“慢得像一条河”。</p>
+        <div class="ty-creator-nums">
+          <div><b>86</b><span>作品</span></div>
+          <div><b>32.4 万</b><span>关注</span></div>
+        </div>
+        <button class="ty-btn ty-btn--ghost" type="button" data-creator="周未未">查看创作者档案</button>
+      </article>
+
+      <article class="ty-creator">
+        <div class="ty-creator-avatar" style="background:linear-gradient(135deg,#e0935a,#b56634)">林</div>
+        <h3>林一勺</h3>
+        <p class="ty-domain">美食烹饪 · 日常记录</p>
+        <p>前餐厅厨师，现在专职做家庭料理视频。她的原则是“所有菜谱都要能在出租屋里完成”。</p>
+        <div class="ty-creator-nums">
+          <div><b>142</b><span>作品</span></div>
+          <div><b>58.9 万</b><span>关注</span></div>
+        </div>
+        <button class="ty-btn ty-btn--ghost" type="button" data-creator="林一勺">查看创作者档案</button>
+      </article>
+
+      <article class="ty-creator">
+        <div class="ty-creator-avatar" style="background:linear-gradient(135deg,#8f7bb5,#5b4a80)">镜</div>
+        <h3>镜头之外</h3>
+        <p class="ty-domain">教程干货 · 影像技巧</p>
+        <p>一个由三人组成的影像教学小组，专注把专业知识翻译成普通人听得懂的话，从不卖器材。</p>
+        <div class="ty-creator-nums">
+          <div><b>77</b><span>作品</span></div>
+          <div><b>41.2 万</b><span>关注</span></div>
+        </div>
+        <button class="ty-btn ty-btn--ghost" type="button" data-creator="镜头之外">查看创作者档案</button>
+      </article>
+
+      <article class="ty-creator">
+        <div class="ty-creator-avatar" style="background:linear-gradient(135deg,#6f9fb8,#3d6b83)">夜</div>
+        <h3>夜行笔记</h3>
+        <p class="ty-domain">城市探索 · 治愈影像</p>
+        <p>白天是普通上班族，夜里带着相机出门。他拍过凌晨的便利店、末班公交和天桥上的风。</p>
+        <div class="ty-creator-nums">
+          <div><b>64</b><span>作品</span></div>
+          <div><b>29.8 万</b><span>关注</span></div>
+        </div>
+        <button class="ty-btn ty-btn--ghost" type="button" data-creator="夜行笔记">查看创作者档案</button>
+      </article>
+
+      <article class="ty-creator">
+        <div class="ty-creator-avatar" style="background:linear-gradient(135deg,#7aa87c,#4d7a52)">木</div>
+        <h3>木食记</h3>
+        <p class="ty-domain">生活方式 · 家居收纳</p>
+        <p>住在四十平小房子里，用三年时间把阳台变成花园。她的视频里总有一股青草味。</p>
+        <div class="ty-creator-nums">
+          <div><b>53</b><span>作品</span></div>
+          <div><b>22.6 万</b><span>关注</span></div>
+        </div>
+        <button class="ty-btn ty-btn--ghost" type="button" data-creator="木食记">查看创作者档案</button>
+      </article>
+
+      <article class="ty-creator">
+        <div class="ty-creator-avatar" style="background:linear-gradient(135deg,#b99b80,#8a6b52)">土</div>
+        <h3>土器studio</h3>
+        <p class="ty-domain">手作 DIY · 创作幕后</p>
+        <p>一间两人陶艺工作室，坚持完整展示失败过程。他们认为“做坏了的部分才是真的”。</p>
+        <div class="ty-creator-nums">
+          <div><b>48</b><span>作品</span></div>
+          <div><b>15.3 万</b><span>关注</span></div>
+        </div>
+        <button class="ty-btn ty-btn--ghost" type="button" data-creator="土器studio">查看创作者档案</button>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 影像墙 + 故事 ============ -->
+<section class="ty-section ty-section--alt" id="tyWallSec">
+  <div class="ty-container">
+    <div class="ty-section-head">
+      <span class="ty-eyebrow">Image Wall / 影像墙</span>
+      <h2 class="ty-h2">从画面里，<em>看见生活的层次</em></h2>
+      <p class="ty-sub">这些是社区用户与创作者共同上传的静帧作品，每张图都对应一支完整视频。作品墙每周更新，欢迎投稿与投票。</p>
+    </div>
+    <div class="ty-wall">
+      <div class="ty-wall-item ty-wall-item--lg">
+        <svg viewBox="0 0 640 400" role="img" aria-label="影像墙：雨天的公交车窗与模糊街景">
+          <defs><linearGradient id="w1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fa9b8"/><stop offset="1" stop-color="#4a6272"/></linearGradient></defs>
+          <rect width="640" height="400" fill="url(#w1)"/>
+          <g fill="#c9dbe4" opacity=".5"><circle cx="120" cy="120" r="34"/><circle cx="196" cy="86" r="16"/><circle cx="470" cy="150" r="26"/><circle cx="540" cy="96" r="12"/></g>
+          <g fill="#f7c8d4" opacity=".55"><circle cx="260" cy="210" r="18"/><circle cx="352" cy="180" r="9"/><circle cx="410" cy="250" r="22"/></g>
+          <g stroke="#e6f0f6" stroke-width="3" opacity=".55" fill="none">
+            <path d="M40 300c80-30 160 20 240-10s180-40 320 0"/>
+            <path d="M40 330c90-24 170 24 250-8s170-30 310 6" opacity=".6"/>
+          </g>
+          <rect y="356" width="640" height="44" fill="#3a4b5e"/>
+        </svg>
+        <span>雨天的公交车窗</span>
+      </div>
+      <div class="ty-wall-item"><svg viewBox="0 0 300 200" role="img" aria-label="影像墙：窗台上的橘子与阳光"><rect width="300" height="200" fill="#f7e0bd"/><rect y="142" width="300" height="58" fill="#d9bd94"/><circle cx="110" cy="120" r="26" fill="#e88a3c"/><circle cx="164" cy="126" r="20" fill="#f0a35a"/><path d="M96 96c8-10 20-12 28-6" stroke="#7aa87c" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="60" y="60" width="60" height="46" rx="6" fill="#fdf6ea" opacity=".7"/></svg><span>窗台上的橘子</span></div>
+      <div class="ty-wall-item"><svg viewBox="0 0 300 200" role="img" aria-label="影像墙：夜晚天桥上的人影与路灯"><rect width="300" height="200" fill="#2b3a4a"/><rect y="150" width="300" height="50" fill="#405264"/><circle cx="240" cy="58" r="24" fill="#ffe0a0" opacity=".85"/><path d="M240 82v70" stroke="#8a9aa8" stroke-width="6"/><g fill="#1d2833"><circle cx="120" cy="112" r="10"/><path d="M110 122h20v38h-20z"/></g></svg><span>天桥上的风</span></div>
+      <div class="ty-wall-item ty-wall-item--md"><svg viewBox="0 0 500 200" role="img" aria-label="影像墙：长桌上摊开的笔记本与咖啡杯"><rect width="500" height="200" fill="#ece2d2"/><rect y="146" width="500" height="54" fill="#c9b69c"/><rect x="40" y="46" width="180" height="104" rx="6" fill="#fffaf0" transform="rotate(-5 130 98)"/><g stroke="#c9a7d9" stroke-width="3" fill="none" opacity=".8"><path d="M62 72h140M62 92h120M62 112h140"/></g><rect x="268" y="84" width="66" height="60" rx="8" fill="#fff"/><ellipse cx="301" cy="84" rx="33" ry="10" fill="#e8d9c6"/><path d="M334 100c14 0 20 8 20 16s-8 14-20 14" stroke="#e8d9c6" stroke-width="7" fill="none"/><g fill="#d9557f" opacity=".8"><circle cx="400" cy="120" r="7"/><circle cx="424" cy="134" r="5"/><circle cx="446" cy="112" r="4"/></g></svg><span>午后写下的三行字</span></div>
+      <div class="ty-wall-item"><svg viewBox="0 0 300 200" role="img" aria-label="影像墙：菜市场里的彩色遮阳棚"><rect width="300" height="200" fill="#e7e0d4"/><rect y="140" width="300" height="60" fill="#b9aa96"/><g><path d="M0 40h80l-14 34H0z" fill="#d9557f"/><path d="M80 40h80l-14 34H66z" fill="#f7d772"/><path d="M160 40h80l-14 34H146z" fill="#7aa87c"/><path d="M240 40h60v34h-74z" fill="#8f7bb5"/></g><g fill="#8a7a66"><rect x="30" y="86" width="52" height="54"/><rect x="122" y="94" width="46" height="46"/><rect x="212" y="86" width="52" height="54"/></g></svg><span>菜市场的上午</span></div>
+      <div class="ty-wall-item"><svg viewBox="0 0 300 200" role="img" aria-label="影像墙：雪后屋顶与远处烟囱"><rect width="300" height="200" fill="#dfe8ee"/><g fill="#f7fbfd"><path d="M0 110l70-34 70 34z"/><path d="M90 120l80-40 80 40z"/><path d="M210 112l60-30 60 30z"/></g><g fill="#a8bcc6"><rect x="50" y="124" width="40" height="40"/><rect x="150" y="130" width="46" height="34"/><rect x="244" y="122" width="34" height="42"/></g><rect y="160" width="300" height="40" fill="#c3d2da"/><circle cx="252" cy="46" r="16" fill="#fff" opacity=".8"/></svg><span>初雪落在旧屋顶</span></div>
+      <div class="ty-wall-item"><svg viewBox="0 0 300 200" role="img" aria-label="影像墙：手工陶瓷杯特写"><rect width="300" height="200" fill="#d9c8b4"/><ellipse cx="150" cy="168" rx="86" ry="16" fill="#b39b7f"/><path d="M104 74h92l-10 76c-2 12-16 18-36 18s-34-6-36-18z" fill="#c9a88a"/><ellipse cx="150" cy="74" rx="46" ry="12" fill="#b28f70"/><path d="M196 92c22 2 30 14 30 24s-10 20-28 20" stroke="#b28f70" stroke-width="10" fill="none"/><path d="M120 96c8 10 20 14 30 14" stroke="#e6d3bd" stroke-width="4" fill="none" opacity=".7"/></svg><span>第一只成功的杯子</span></div>
+    </div>
+
+    <div style="margin-top:56px;display:grid;grid-template-columns:repeat(2,1fr);gap:22px" class="ty-story-row">
+      <article style="background:#fff;border:1px solid var(--ty-line);border-radius:20px;padding:26px">
+        <span class="ty-eyebrow" style="margin-bottom:10px">编者手记</span>
+        <h3 style="font-size:18px;font-weight:800;margin-bottom:10px">我们为什么坚持不做快剪</h3>
+        <p style="font-size:14.5px;color:var(--ty-ink-soft);line-height:1.85">有创作者问我们，为什么不鼓励三秒一个反转的剪辑方式。答案很简单：童颜yandex 想留下的，是五年后还能看的东西。快剪会过时，但一个人安静洗碗的十分钟不会。我们愿意为这种“慢”留出位置，也愿意为愿意慢下来的人提供资源。</p>
+      </article>
+      <article style="background:#fff;border:1px solid var(--ty-line);border-radius:20px;padding:26px">
+        <span class="ty-eyebrow" style="margin-bottom:10px">创作者来信</span>
+        <h3 style="font-size:18px;font-weight:800;margin-bottom:10px">“我终于敢把失败的版本也发出来”</h3>
+        <p style="font-size:14.5px;color:var(--ty-ink-soft);line-height:1.85">来自土器studio 的一封投稿。她说在别的平台，失败的作品会被算法默默埋掉；在童颜yandex，那条拉坯失败的视频收到了八百多条留言，很多人说自己也正在经历同样的事。我们把这封信放在了编辑部的墙上。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 评价 ============ -->
+<section class="ty-section" id="tyVoices">
+  <div class="ty-container">
+    <div class="ty-section-head">
+      <span class="ty-eyebrow">Community Voices / 社区口碑</span>
+      <h2 class="ty-h2">用户和创作者<em>怎么说</em></h2>
+      <p class="ty-sub">我们保留了差评与建议，因为口碑不是只挑好听的说。以下内容来自站内评价区，均已获授权展示。</p>
+    </div>
+    <div class="ty-quote-grid">
+      <div class="ty-quote">
+        <p>看了三年，最直观的感受是画面干净。没有那种为了留人硬塞的噪音，也没有突然弹出的广告。有时候只是想找个安静的地方吃晚饭，就会打开童颜yandex。</p>
+        <div class="ty-quote-who"><span class="ty-avatar" style="background:linear-gradient(135deg,#ef7fa6,#d9557f)">阿</span><b>阿桦</b><span>· 注册 3 年 · 普通用户</span></div>
+      </div>
+      <div class="ty-quote">
+        <p>作为创作者，我最认可的是推荐逻辑公开这件事。虽然我的播放量不高，但至少知道问题出在哪一环节，而不是猜。这点在现在的平台里挺少见的。</p>
+        <div class="ty-quote-who"><span class="ty-avatar" style="background:linear-gradient(135deg,#8f7bb5,#5b4a80)">小</span><b>小满的抽屉</b><span>· 签约创作者</span></div>
+      </div>
+      <div class="ty-quote">
+        <p>建议：专题页能不能加个进度提醒？四季影像展我老是错过更新。内容本身没问题，就是希望通知再友好一点，别只在公告条里滚过去。</p>
+        <div class="ty-quote-who"><span class="ty-avatar" style="background:linear-gradient(135deg,#6f9fb8,#3d6b83)">陈</span><b>陈默</b><span>· 注册 1 年</span></div>
+      </div>
+      <div class="ty-quote">
+        <p>画质是真的稳。我家里网速一般，别的地方经常糊成一片，这里基本能保持清晰。4K 专区也名副其实，投到电视上看很舒服。</p>
+        <div class="ty-quote-who"><span class="ty-avatar" style="background:linear-gradient(135deg,#7aa87c,#4d7a52)">老</span><b>老周看电影</b><span>· 注册 2 年</span></div>
+      </div>
+      <div class="ty-quote">
+        <p>参加过一次短片挑战赛，落选了，但收到了评审的具体意见，写了三百多字。就冲这一点，我还会再投。被认真对待的感觉比奖重要。</p>
+        <div class="ty-quote-who"><span class="ty-avatar" style="background:linear-gradient(135deg,#e0935a,#b56634)">林</span><b>林间</b><span>· 投稿用户</span></div>
+      </div>
+      <div class="ty-quote">
+        <p>希望多做点幕后内容。现在很多片子只看到成品，看不到创作者怎么想的。深夜创作者 FM 那档我是真喜欢，会反复听。</p>
+        <div class="ty-quote-who"><span class="ty-avatar" style="background:linear-gradient(135deg,#c9a7d9,#8f7bb5)">柚</span><b>柚子茶</b><span>· 注册 4 年</span></div>
+      </div>
+      <div class="ty-quote">
+        <p>下载功能很实用，我会把教程类的内容存下来，出差在高铁上看。唯一希望是能按专题打包下载，一条条点有点慢。</p>
+        <div class="ty-quote-who"><span class="ty-avatar" style="background:linear-gradient(135deg,#a8bcc6,#6f8a99)">程</span><b>程工</b><span>· 注册 2 年</span></div>
+      </div>
+      <div class="ty-quote">
+        <p>客服响应挺快。上次账号问题在帮助中心提了反馈，第二天就有人回复，还给了解释。虽然是小平台，但做事挺认真。</p>
+        <div class="ty-quote-who"><span class="ty-avatar" style="background:linear-gradient(135deg,#d9557f,#8a3557)">向</span><b>向日葵</b><span>· 注册 1 年</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 动态 + 榜单 ============ -->
+<section class="ty-section ty-section--alt" id="tyNews">
+  <div class="ty-container">
+    <div class="ty-section-head">
+      <span class="ty-eyebrow">Newsroom / 企业动态</span>
+      <h2 class="ty-h2">官方发布与<em>热度榜单</em></h2>
+      <p class="ty-sub">品牌动态、内容更新与创作者成长记录，都在这里按月归档。榜单每周一更新，依据完整播放与收藏综合计算。</p>
+    </div>
+    <div class="ty-split">
+      <div class="ty-timeline">
+        <div class="ty-timeline-item">
+          <time>2026 年 11 月 17 日</time>
+          <h3>「四季生活影像展」冬季单元正式上线</h3>
+          <p>本次冬季单元共收录四支短片，分别来自周未未、夜行笔记、木食记与一位首次投稿的用户。专题页已同步更新片单与导演手记，支持一键收藏与下载。</p>
+        </div>
+        <div class="ty-timeline-item">
+          <time>2026 年 11 月 12 日</time>
+          <h3>第二季「真实一刻」短片挑战赛开放报名</h3>
+          <p>本届挑战赛取消时长下限，允许三分钟以内的短作品参赛。评审新增两位独立纪录片导演，报名与作品上传通道将在 12 月 18 日 24:00 关闭，逾期不再受理。</p>
+        </div>
+        <div class="ty-timeline-item">
+          <time>2026 年 11 月 6 日</time>
+          <h3>创作者后台新增脚本灵感与标题建议工具</h3>
+          <p>工具基于站内公开的优质内容结构整理而来，可为创作者提供选题方向、开场方式与标题措辞参考。所有建议仅供启发，不参与任何推荐权重计算。</p>
+        </div>
+        <div class="ty-timeline-item">
+          <time>2026 年 10 月 28 日</time>
+          <h3>与两家地方文化机构达成影像档案合作</h3>
+          <p>合作内容涵盖老街区记录、手艺人访谈与社区放映。首期成果将在明年春季以专题形式发布，相关素材同时进入长期档案库，用于公共文化研究。</p>
+        </div>
+        <div class="ty-timeline-item">
+          <time>2026 年 10 月 15 日</time>
+          <h3>品牌三周年：发布内容生态白皮书</h3>
+          <p>白皮书公开了平台的内容审核标准、推荐逻辑说明与创作者收益结构，是童颜yandex 三年来第一次系统性地向社区交代自己的运营方式。</p>
+        </div>
+      </div>
+      <aside class="ty-rank">
+        <h3>本周创作者热度榜</h3>
+        <p>统计周期 11.10 – 11.16 · 综合播放与收藏</p>
+        <ul>
+          <li><span class="ty-rank-no">1</span><span class="ty-rank-name">林一勺</span><span class="ty-rank-val">98.6</span></li>
+          <li><span class="ty-rank-no">2</span><span class="ty-rank-name">夜行笔记</span><span class="ty-rank-val">94.2</span></li>
+          <li><span class="ty-rank-no">3</span><span class="ty-rank-name">镜头之外</span><span class="ty-rank-val">91.8</span></li>
+          <li><span class="ty-rank-no">4</span><span class="ty-rank-name">周未未</span><span class="ty-rank-val">88.4</span></li>
+          <li><span class="ty-rank-no">5</span><span class="ty-rank-name">木食记</span><span class="ty-rank-val">84.1</span></li>
+          <li><span class="ty-rank-no">6</span><span class="ty-rank-name">土器studio</span><span class="ty-rank-val">79.7</span></li>
+          <li><span class="ty-rank-no">7</span><span class="ty-rank-name">布丁手作</span><span class="ty-rank-val">76.3</span></li>
+          <li><span class="ty-rank-no">8</span><span class="ty-rank-name">小满的抽屉</span><span class="ty-rank-val">72.9</span></li>
+        </ul>
+        <a class="ty-btn ty-btn--ghost" href="#tyContact" style="width:100%;margin-top:18px">申请加入创作者计划</a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="ty-section" id="tyFaq">
+  <div class="ty-container">
+    <div class="ty-section-head" style="text-align:center">
+      <span class="ty-eyebrow" style="justify-content:center">Help Center / 帮助中心</span>
+      <h2 class="ty-h2">关于童颜yandex 的<em>常见问题</em></h2>
+      <p class="ty-sub" style="margin:0 auto">如果下面的内容没有解决你的疑问，可以到页面底部提交反馈，我们会在两个工作日内回复。</p>
+    </div>
+    <div class="ty-faq">
+      <details open>
+        <summary>童颜yandex 是做什么的？和普通视频平台有什么不同？</summary>
+        <p>童颜yandex 是一个专注真实生活影像的原创视频品牌，官方网站提供内容浏览、创作者档案、专题企划与投稿入口。与综合视频平台不同，我们不追求内容数量与热点速度，而是以专题为核心组织内容，强调原创、正版与高清，并对每一条上架作品进行人工审核与版权核验。</p>
+      </details>
+      <details>
+        <summary>如何成为童颜yandex 的创作者？</summary>
+        <p>在页面底部或导航中点击“投稿入口”，填写基本信息并上传一支代表作即可提交申请。编辑部会在五个工作日内给出反馈。通过后你将获得创作者后台权限，可使用脚本灵感、标题建议、数据分析与素材下载等工具。我们不对粉丝量设门槛，更看重作品的完整度与真实感。</p>
+      </details>
+      <details>
+        <summary>平台上的内容都可以下载吗？</summary>
+        <p>标注“支持下载”的作品可在播放页使用下载功能，供个人学习与离线观看使用。所有内容均为正版授权，禁止二次剪辑、商用或搬运至其他平台。如需商业使用，请通过合作渠道联系我们获取书面授权。</p>
+      </details>
+      <details>
+        <summary>短片挑战赛的评审标准是什么？</summary>
+        <p>评审从四个维度打分：真实感、叙事完整度、影像表达与声音处理，各占 25%。我们不设题材偏好，也不要求专业设备。上一季获奖作品中有两支使用手机拍摄。评审意见会在结果公布后逐条反馈给参赛者。</p>
+      </details>
+      <details>
+        <summary>为什么有些内容显示“筹备中”？</summary>
+        <p>专题企划通常需要两到三个月的拍摄与制作周期。“筹备中”表示该专题已完成策划与创作者招募，但成片尚未全部上线。你可以收藏专题页，上线时会在站内消息中提醒，公告条也会同步发布更新信息。</p>
+      </details>
+      <details>
+        <summary>如何举报不当内容或反馈问题？</summary>
+        <p>在任意视频卡片或播放页都可以发起反馈。我们承诺在 24 小时内完成初步核查，涉及版权与人身权益的投诉会优先处理。如果你的作品被误判，可在帮助中心提交申诉材料，编辑部会重新人工复核。</p>
+      </details>
+      <details>
+        <summary>可以和企业或机构合作吗？</summary>
+        <p>可以。我们与生活品牌、地方文化机构、独立影像工作室保持长期合作，形式包括联合专题、品牌纪录片、线下放映与内容共建。合作不改变内容审核标准，所有商业内容会明确标注。具体方式请通过页面底部的合作邮箱联系。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 联系 / CTA ============ -->
+<section class="ty-section" id="tyContact">
+  <div class="ty-container">
+    <div class="ty-cta">
+      <div class="ty-cta-inner">
+        <div>
+          <h2>把你的故事，放进童颜yandex 的片单里</h2>
+          <p>无论你是拍了十年片子的创作者，还是刚刚拿起手机记录生活的普通人，这里都有位置。我们提供创作基金、剪辑支持与专题推荐资源，也愿意听你把想法说完。投稿不收取任何费用，版权始终归创作者所有。</p>
+          <div class="ty-cta-actions">
+            <button class="ty-btn ty-btn--primary" type="button" id="tySubmitOpen2">提交我的作品</button>
+            <a class="ty-btn ty-btn--ghost" href="#tyFaq" style="border-color:rgba(255,255,255,.36);color:#fbeef4;background:transparent">查看投稿指南</a>
+          </div>
+        </div>
+        <ul class="ty-cta-list">
+          <li><span>合作邮箱</span><b>brand@tongyanyandex.cn</b></li>
+          <li><span>投稿咨询</span><b>creator@tongyanyandex.cn</b></li>
+          <li><span>媒体联络</span><b>press@tongyanyandex.cn</b></li>
+          <li><span>办公地址</span><b>上海市杨浦区影像产业园 B 座 6 层</b></li>
+          <li><span>工作时间</span><b>周一至周五 10:00 – 19:00</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ty-footer">
+  <div class="ty-container">
+    <div class="ty-footer-grid">
+      <div>
+        <div class="ty-footer-brand">
+          <span class="ty-logo-mark">童</span>
+          <b>童颜yandex</b>
+        </div>
+        <p>童颜yandex 官方网站，深耕真实生活影像的原创视频品牌。我们持续运营一个高品质内容生态，与四百余位创作者一起，记录值得被回看的日常。</p>
+        <p style="margin-top:12px">官方网站 · 官方发布 · 持续运营中</p>
+      </div>
+      <div>
+        <h4>浏览内容</h4>
+        <ul>
+          <li><a href="#tyFocus">视频焦点</a></li>
+          <li><a href="#tyStream">热门内容</a></li>
+          <li><a href="#tyTopics">专题企划</a></li>
+          <li><a href="#tyWallSec">影像墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与社区</h4>
+        <ul>
+          <li><a href="#tyCreators">创作者矩阵</a></li>
+          <li><a href="#tyVoices">社区口碑</a></li>
+          <li><a href="#tyNews">企业动态</a></li>
+          <li><a href="#tyContact">合作联系</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>服务支持</h4>
+        <ul>
+          <li><a href="#tyFaq">帮助中心</a></li>
+          <li><a href="#tyContact">投稿入口</a></li>
+          <li><a href="#tyAbout">品牌故事</a></li>
+          <li><a href="#tyHero">返回首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ty-footer-bottom">
+      <span>© 2026 童颜yandex 官方网站 版权所有 · 沪ICP备2026011876号-2</span>
+      <span>内容均为原创正版，转载请注明出处 · 用户至上 · 匠心运营</span>
+    </div>
+  </div>
+</footer>
+
+<div class="ty-toast" id="tyToast" role="status" aria-live="polite"></div>
+
+<div class="ty-modal-mask" id="tySubmitModal" role="dialog" aria-modal="true" aria-labelledby="tySubmitTitle">
+  <div class="ty-modal">
+    <button class="ty-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3 id="tySubmitTitle">投稿到童颜yandex</h3>
+    <p class="ty-modal-sub">填写以下信息，编辑部将在五个工作日内回复。作品版权始终归创作者所有。</p>
+    <form id="tySubmitForm">
+      <div class="ty-field">
+        <label for="tyName">你的称呼</label>
+        <input id="tyName" type="text" placeholder="例如：林一勺" required>
+      </div>
+      <div class="ty-field">
+        <label for="tyContactInput">联系方式</label>
+        <input id="tyContactInput" type="text" placeholder="邮箱或手机号" required>
+      </div>
+      <div class="ty-field">
+        <label for="tyType">作品类型</label>
+        <select id="tyType">
+          <option>日常记录</option>
+          <option>经验分享</option>
+          <option>人物访谈</option>
+          <option>手艺与创作</option>
+          <option>影像实验</option>
+        </select>
+      </div>
+      <div class="ty-field">
+        <label for="tyDesc">作品简介</label>
+        <textarea id="tyDesc" placeholder="用三五句话说说你想拍什么、已经拍到哪一步了"></textarea>
+      </div>
+      <button class="ty-btn ty-btn--primary" type="submit" style="width:100%">提交投稿信息</button>
+    </form>
+  </div>
+</div>
+
+<div class="ty-modal-mask" id="tyCreatorModal" role="dialog" aria-modal="true" aria-labelledby="tyCreatorTitle">
+  <div class="ty-modal">
+    <button class="ty-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3 id="tyCreatorTitle">创作者档案</h3>
+    <p class="ty-modal-sub">以下信息由创作者本人提供并授权展示。</p>
+    <div id="tyCreatorBody"></div>
+  </div>
+</div>
+
+<div class="ty-modal-mask" id="tyShareModal" role="dialog" aria-modal="true" aria-labelledby="tyShareTitle">
+  <div class="ty-modal">
+    <button class="ty-modal-close" type="button" data-close aria-label="关闭">×</button>
+    <h3 id="tyShareTitle">分享这条影像</h3>
+    <p class="ty-modal-sub" id="tyShareName">把喜欢的内容分享给同样认真生活的朋友。</p>
+    <div class="ty-share-row">
+      <button type="button" data-share-way="微信">微信好友</button>
+      <button type="button" data-share-way="微博">微博</button>
+      <button type="button" data-share-way="QQ">QQ</button>
+      <button type="button" data-share-way="复制链接" id="tyCopyLink">复制链接</button>
+    </div>
+  </div>
+</div>
+
+<button class="ty-top-btn" id="tyTopBtn" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 搜索 ---------- */
+  var searchInput = document.getElementById('tySearchInput');
+  var searchHint = document.getElementById('tySearchHint');
+  var searchData = [
+    {t:'她把长发剪短的下午',k:'人物记录'},
+    {t:'凌晨四点的面包房',k:'日常记录'},
+    {t:'老照相馆的最后一卷胶片',k:'城市探索'},
+    {t:'厨房里的两个人',k:'美食烹饪'},
+    {t:'一条街的二十年',k:'城市探索'},
+    {t:'阳台上的第三年',k:'生活方式'},
+    {t:'手机也能拍出电影感',k:'教程干货'},
+    {t:'做了十二年手账的人',k:'人物访谈'},
+    {t:'拉坯第十次失败之后',k:'手艺创作'},
+    {t:'凌晨的便利店',k:'治愈影像'},
+    {t:'一个人做饭的三十天',k:'美食烹饪'},
+    {t:'辞职去修旧家具的第八年',k:'人物访谈'},
+    {t:'用爸爸的旧衬衫做一只包',k:'手作DIY'},
+    {t:'搬家那天',k:'日常记录'},
+    {t:'周未未',k:'创作者'},
+    {t:'林一勺',k:'创作者'},
+    {t:'镜头之外',k:'创作者'},
+    {t:'夜行笔记',k:'创作者'},
+    {t:'木食记',k:'创作者'},
+    {t:'土器studio',k:'创作者'},
+    {t:'四季生活影像展',k:'专题'},
+    {t:'真实一刻短片挑战赛',k:'专题'},
+    {t:'城市切片',k:'专题'},
+    {t:'深夜创作者FM',k:'专题'}
+  ];
+
+  function renderSearch(kw){
+    var q = kw.trim();
+    if(!q){
+      searchHint.classList.remove('is-open');
+      searchHint.innerHTML = '';
+      return;
+    }
+    var hits = searchData.filter(function(item){
+      return item.t.indexOf(q) > -1 || item.k.indexOf(q) > -1;
+    }).slice(0,6);
+    if(!hits.length){
+      searchHint.innerHTML = '<p>试试这些关键词</p><div class="ty-none">暂无匹配结果，可尝试「记录」「访谈」「专题」。</div>';
+    }else{
+      var html = '<p>为你找到 ' + hits.length + ' 条相关内容</p>';
+      hits.forEach(function(item){
+        html += '<a href="#tyStream">' + item.t + ' <span style="color:#a596a8;font-size:12px">· ' + item.k + '</span></a>';
+      });
+      searchHint.innerHTML = html;
+    }
+    searchHint.classList.add('is-open');
+  }
+
+  if(searchInput){
+    searchInput.addEventListener('input', function(){ renderSearch(this.value); });
+    searchInput.addEventListener('focus', function(){ if(this.value.trim()) renderSearch(this.value); });
+  }
+  document.addEventListener('click', function(e){
+    if(searchHint && !searchHint.contains(e.target) && e.target !== searchInput){
+      searchHint.classList.remove('is-open');
+    }
+  });
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = document.getElementById('tyBurger');
+  var mobileNav = document.getElementById('tyMobileNav');
+  if(burger && mobileNav){
+    burger.addEventListener('click', function(){
+      var open = mobileNav.classList.toggle('is-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    mobileNav.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        mobileNav.classList.remove('is-open');
+        burger.setAttribute('aria-expanded','false');
+      });
+    });
+  }
+
+  /* ---------- Toast ---------- */
+  var toast = document.getElementById('tyToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('is-show'); }, 2200);
+  }
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.querySelectorAll('[data-like]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var numEl = btn.querySelector('[data-count]');
+      if(!numEl) return;
+      var n = parseInt(numEl.textContent.replace(/[^\d]/g,''),10) || 0;
+      var active = btn.classList.toggle('is-on');
+      numEl.textContent = active ? n + 1 : Math.max(0, n - 1);
+      showToast(active ? '已点赞，感谢你的喜欢' : '已取消点赞');
+    });
+  });
+
+  document.querySelectorAll('[data-fav]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var active = btn.classList.toggle('is-on');
+      var label = btn.querySelector('span');
+      if(label) label.textContent = active ? '已收藏' : '收藏';
+      showToast(active ? '已加入收藏，可在个人中心查看' : '已取消收藏');
+    });
+  });
+
+  /* ---------- 分享弹窗 ---------- */
+  var shareModal = document.getElementById('tyShareModal');
+  var shareName = document.getElementById('tyShareName');
+  var shareTitleCache = '';
+
+  document.querySelectorAll('[data-share]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      shareTitleCache = btn.getAttribute('data-title') || '童颜yandex 原创影像';
+      if(shareName) shareName.textContent = '《' + shareTitleCache + '》—— 把喜欢的内容分享给同样认真生活的朋友。';
+      if(shareModal) shareModal.classList.add('is-open');
+    });
+  });
+
+  document.querySelectorAll('[data-share-way]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var way = btn.getAttribute('data-share-way');
+      if(way === '复制链接'){
+        copyLink();
+      }else{
+        showToast('已生成' + way + '分享卡片，可前往对应应用粘贴发送');
+        if(shareModal) shareModal.classList.remove('is-open');
+      }
+    });
+  });
+
+  function copyLink(){
+    var text = '童颜yandex 官方影像推荐：《' + shareTitleCache + '》';
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){
+        showToast('链接已复制到剪贴板');
+      }).catch(function(){
+        showToast('内容已生成，可手动复制分享');
+      });
+    }else{
+      showToast('内容已生成，可手动复制分享');
+    }
+    if(shareModal) shareModal.classList.remove('is-open');
+  }
+  var copyBtn = document.getElementById('tyCopyLink');
+  if(copyBtn) copyBtn.addEventListener('click', copyLink);
+
+  /* ---------- 弹窗通用关闭 ---------- */
+  document.querySelectorAll('.ty-modal-mask').forEach(function(mask){
+    mask.addEventListener('click', function(e){
+      if(e.target === mask) mask.classList.remove('is-open');
+    });
+    mask.querySelectorAll('[data-close]').forEach(function(c){
+      c.addEventListener('click', function(){ mask.classList.remove('is-open'); });
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.ty-modal-mask.is-open').forEach(function(m){
+        m.classList.remove('is-open');
+      });
+    }
+  });
+
+  /* ---------- 投稿弹窗 ---------- */
+  var submitModal = document.getElementById('tySubmitModal');
+  function openSubmit(){
+    if(submitModal) submitModal.classList.add('is-open');
+  }
+  ['tySubmitOpen','tySubmitOpen2'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) el.addEventListener('click', openSubmit);
+  });
+
+  var submitForm = document.getElementById('tySubmitForm');
+  if(submitForm){
+    submitForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = document.getElementById('tyName');
+      var contact = document.getElementById('tyContactInput');
+      if(!name.value.trim() || !contact.value.trim()){
+        showToast('请填写称呼和联系方式');
+        return;
+      }
+      submitForm.reset();
+      if(submitModal) submitModal.classList.remove('is-open');
+      showToast('投稿已提交，编辑部将在五个工作日内回复');
+    });
+  }
+
+  /* ---------- 创作者档案弹窗 ---------- */
+  var creatorData = {
+    '周未未':{domain:'人物访谈 · 人文记录',works:'86 支原创短片',fans:'32.4 万',intro:'纪录片编导出身的独立创作者。她坚持长镜头与自然声，作品曾被多个城市影像展邀请放映。代表作为《她把长发剪短的下午》《辞职去修旧家具的第八年》。',tag:'真实 长镜头 人文关怀'},
+    '林一勺':{domain:'美食烹饪 · 日常记录',works:'142 支原创短片',fans:'58.9 万',intro:'前餐厅厨师，现为全职家庭料理创作者。她的所有菜谱都经过出租屋厨房实测，强调“少洗碗、少买料”。代表作为《厨房里的两个人》《一个人做饭的三十天》。',tag:'家常 实用 治愈'},
+    '镜头之外':{domain:'教程干货 · 影像技巧',works:'77 支原创短片',fans:'41.2 万',intro:'由三位影像从业者组成的教学小组，专注把专业技巧翻译成普通人能听懂的语言。他们拒绝器材营销，所有教程均可用手机完成。代表作为《手机也能拍出电影感》。',tag:'教程 手机拍摄 无器材'},
+    '夜行笔记':{domain:'城市探索 · 治愈影像',works:'64 支原创短片',fans:'29.8 万',intro:'白天是普通上班族，夜里带着相机出门，持续记录城市深夜的普通人。擅长低照度拍摄与自然光运用。代表作为《凌晨的便利店》。',tag:'城市 夜色 治愈'},
+    '木食记':{domain:'生活方式 · 家居收纳',works:'53 支原创短片',fans:'22.6 万',intro:'住在四十平小房子里，用三年时间把阳台变成花园。她的内容围绕小空间生活展开，强调可持续与低成本的改造。代表作为《阳台上的第三年》。',tag:'小户型 种植 生活美学'},
+    '土器studio':{domain:'手作 DIY · 创作幕后',works:'48 支原创短片',fans:'15.3 万',intro:'一间两人陶艺工作室，坚持完整展示失败过程。他们认为观众需要看到的不只是成品，还有反复尝试的真实状态。代表作为《拉坯第十次失败之后》。',tag:'陶艺 手作 失败记录'}
+  };
+
+  var creatorModal = document.getElementById('tyCreatorModal');
+  var creatorBody = document.getElementById('tyCreatorBody');
+  var creatorTitle = document.getElementById('tyCreatorTitle');
+
+  document.querySelectorAll('[data-creator]').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var key = btn.getAttribute('data-creator');
+      var data = creatorData[key];
+      if(!data || !creatorModal) return;
+      creatorTitle.textContent = key + ' · 创作者档案';
+      creatorBody.innerHTML =
+        '<div style="display:flex;gap:16px;align-items:center;margin-bottom:18px">' +
+          '<span class="ty-avatar" style="width:56px;height:56px;font-size:22px;background:linear-gradient(135deg,#ef7fa6,#8f7bb5)">' + key.charAt(0) + '</span>' +
+          '<div><b style="font-size:16px">' + key + '</b><p style="font-size:13px;color:#8a3557;font-weight:600">' + data.domain + '</p></div>' +
+        '</div>' +
+        '<p style="font-size:14.5px;color:#5d5264;line-height:1.85;margin-bottom:16px">' + data.intro + '</p>' +
+        '<div style="display:flex;gap:26px;padding:14px 0;border-top:1px dashed #eadfe6;border-bottom:1px dashed #eadfe6;margin-bottom:14px">' +
+          '<div><b style="display:block;font-size:16px">' + data.works + '</b><span style="font-size:12px;color:#8b7f90">作品</span></div>' +
+          '<div><b style="display:block;font-size:16px">' + data.fans + '</b><span style="font-size:12px;color:#8b7f90">关注</span></div>' +
+        '</div>' +
+        '<p style="font-size:13px;color:#8b7f90">风格标签：' + data.tag + '</p>';
+      creatorModal.classList.add('is-open');
+    });
+  });
+
+  /* ---------- 标签筛选 ---------- */
+  var filterRow = document.getElementById('tyFilterRow');
+  var streamGrid = document.getElementById('tyStreamGrid');
+  var streamEmpty = document.getElementById('tyStreamEmpty');
+  if(filterRow && streamGrid){
+    filterRow.addEventListener('click', function(e){
+      var btn = e.target.closest('[data-filter]');
+      if(!btn) return;
+      filterRow.querySelectorAll('.ty-filter').forEach(function(b){ b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      var key = btn.getAttribute('data-filter');
+      var shown = 0;
+      streamGrid.querySelectorAll('[data-cat]').forEach(function(card){
+        var match = (key === 'all' || card.getAttribute('data-cat') === key);
+        card.style.display = match ? '' : 'none';
+        if(match) shown++;
+      });
+      if(streamEmpty) streamEmpty.style.display = shown ? 'none' : 'block';
+    });
+  }
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById('tyTopBtn');
+  window.addEventListener('scroll', function(){
+    if(!topBtn) return;
+    if(window.scrollY > 420){
+      topBtn.classList.add('is-show');
+    }else{
+      topBtn.classList.remove('is-show');
+    }
+  }, {passive:true});
+  if(topBtn){
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({top:0,behavior:'smooth'});
+    });
+  }
+
+  /* ---------- 数字滚动 ---------- */
+  var stats = document.querySelectorAll('[data-count]');
+  if(stats.length && 'IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(!entry.isIntersecting) return;
+        var el = entry.target;
+        var target = parseInt(el.getAttribute('data-count'),10) || 0;
+        var startTime = null;
+        var dur = 1200;
+        function step(ts){
+          if(!startTime) startTime = ts;
+          var p = Math.min((ts - startTime) / dur, 1);
+          el.textContent = Math.floor(target * (1 - Math.pow(1 - p, 3)));
+          if(p < 1) requestAnimationFrame(step);
+          else el.textContent = target;
+        }
+        requestAnimationFrame(step);
+        io.unobserve(el);
+      });
+    }, {threshold:.4});
+    stats.forEach(function(s){ io.observe(s); });
+  }
+
+})();
+</script>
+</body>
+  </html>
